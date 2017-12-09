@@ -30,3 +30,7 @@ sysinfo.txt
 *.unitypackage
 
 *.pdb
+
+# Wwise
+/Wwise/Originals/SFX/*.akd
+/Wwise/.cache/
