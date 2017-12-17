@@ -1,74 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ValidationCache Version="1" SchemaVersion="70">
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1065235822" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Attenuations\Default Work Unit.wwu" DateLow="1066277451" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1066437607" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1066103129" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1066577874" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Default Work Unit.wwu" DateLow="1065621849" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory Auro Headphone.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory Effects.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="2914136832" DateHigh="30450683"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Delay.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Dynamics.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Filters.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory McDSP Effects.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Events\Default Work Unit.wwu" DateLow="1065391252" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1065546665" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1066512643" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1065316035" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1066648073" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Modulators\Default Work Unit.wwu" DateLow="1066193369" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove.ccove.wsettings" DateLow="3006661466" DateHigh="30634285"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove.wproj" DateLow="1065155608" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1065235822" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Attenuations\Default Work Unit.wwu" DateLow="1066277451" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Control Surface Sessions\Default Work Unit.wwu" DateLow="1066437607" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Conversion Settings\Default Work Unit.wwu" DateLow="1066103129" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1066577874" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Effects\Default Work Unit.wwu" DateLow="1065621849" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Effects\Factory Auro Headphone.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Effects\Factory Effects.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Effects\Factory iZotope Box Modeler.wwu" DateLow="2914136832" DateHigh="30450683"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Effects\Factory iZotope Delay.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Effects\Factory iZotope Dynamics.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Effects\Factory iZotope Filters.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="3366127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Effects\Factory McDSP Effects.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Events\Default Work Unit.wwu" DateLow="1065391252" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Game Parameters\Default Work Unit.wwu" DateLow="1065546665" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1066512643" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1065316035" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Mixing Sessions\Default Work Unit.wwu" DateLow="1066648073" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Modulators\Default Work Unit.wwu" DateLow="1066193369" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\PaneaLove.wproj" DateLow="1065155608" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Presets\Default Work Unit.wwu" DateLow="1065697049" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Queries\Default Work Unit.wwu" DateLow="1066012909" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Queries\Factory Queries.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\SoundBanks\Default Work Unit.wwu" DateLow="1065857475" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1065782600" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\States\Default Work Unit.wwu" DateLow="1065466443" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Switches\Default Work Unit.wwu" DateLow="1065932676" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove\Triggers\Default Work Unit.wwu" DateLow="1066367416" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Presets\Default Work Unit.wwu" DateLow="1065697049" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Queries\Default Work Unit.wwu" DateLow="1066012909" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Queries\Factory Queries.wwu" DateLow="3406127360" DateHigh="30449215"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1065857475" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1065782600" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\States\Default Work Unit.wwu" DateLow="1065466443" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Switches\Default Work Unit.wwu" DateLow="1065932676" DateHigh="30634284"/>
-	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Triggers\Default Work Unit.wwu" DateLow="1066367416" DateHigh="30634284"/>
+<ValidationCache Version="1" SchemaVersion="80">
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1934786535" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1934906857" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1935037202" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Attenuations\Default Work Unit.wwu" DateLow="1935067289" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1935097360" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1935117418" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1935157522" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1935177578" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Default Work Unit.wwu" DateLow="1935207657" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory Auro Headphone.wwu" DateLow="1935247768" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory Effects.wwu" DateLow="1935297895" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="1935338007" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Delay.wwu" DateLow="1935358055" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Dynamics.wwu" DateLow="1935388141" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Filters.wwu" DateLow="1935418213" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1935448294" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1935478378" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1935508459" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Effects\Factory McDSP Effects.wwu" DateLow="1935578647" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Events\Default Work Unit.wwu" DateLow="1935608728" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1935638807" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1935638807" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1935668883" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1935698964" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1935719015" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Modulators\Default Work Unit.wwu" DateLow="1935749101" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove.ccove.wsettings" DateLow="1934756459" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\PaneaLove.wproj" DateLow="1934716349" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Presets\Default Work Unit.wwu" DateLow="1935779175" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Queries\Default Work Unit.wwu" DateLow="1935799228" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Queries\Factory Queries.wwu" DateLow="1935829307" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1935869413" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1935899497" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\States\Default Work Unit.wwu" DateLow="1935929576" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Switches\Default Work Unit.wwu" DateLow="1935959657" DateHigh="30635900"/>
+	<ValidationCacheItem File="C:\Users\ccove\PandeaLove\Wwise\Triggers\Default Work Unit.wwu" DateLow="1935989738" DateHigh="30635900"/>
 </ValidationCache>

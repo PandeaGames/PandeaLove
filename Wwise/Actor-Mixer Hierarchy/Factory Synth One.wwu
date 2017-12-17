@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{D9329DB3-E4D7-45AA-BD40-6EB28C6C4D39}" SchemaVersion="70">
+<WwiseDocument Type="WorkUnit" ID="{D9329DB3-E4D7-45AA-BD40-6EB28C6C4D39}" SchemaVersion="80">
 	<AudioObjects>
 		<WorkUnit Name="Factory Synth One" ID="{D9329DB3-E4D7-45AA-BD40-6EB28C6C4D39}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="UI Sounds" ID="{33795F66-78E1-4A95-A3DB-B51C25D4CCAC}" ShortID="869167239">
 					<ChildrenList>
-						<Sound Name="BEEP 01" ID="{D4258CB6-01BA-46AE-8924-E5914FDA8A13}" ShortID="868761553" Type="SoundFX">
+						<Sound Name="BEEP 01" ID="{D4258CB6-01BA-46AE-8924-E5914FDA8A13}" ShortID="868761553">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -99,16 +99,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="BEEP 01" ID="{1B6251E8-9976-4F2C-9899-14965CC06CF8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BEEP 03" ID="{A9299AF1-B02E-4B35-9D7D-B631652723A1}" ShortID="57241297" Type="SoundFX">
+						<Sound Name="BEEP 03" ID="{A9299AF1-B02E-4B35-9D7D-B631652723A1}" ShortID="57241297">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -194,16 +194,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="BEEP 03" ID="{8501B327-8A20-4CCF-91A2-87C7FC7713FD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="DENIED 01" ID="{8DC105A1-1E83-4D49-B886-F0723C2150FD}" ShortID="748026928" Type="SoundFX">
+						<Sound Name="DENIED 01" ID="{8DC105A1-1E83-4D49-B886-F0723C2150FD}" ShortID="748026928">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -289,16 +289,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="DENIED 01" ID="{92D10F9B-230F-4674-A0D7-1F01C58E4996}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="DENIED 02" ID="{73E7B8CF-4BCA-4566-9597-66C1842AC12B}" ShortID="799377201" Type="SoundFX">
+						<Sound Name="DENIED 02" ID="{73E7B8CF-4BCA-4566-9597-66C1842AC12B}" ShortID="799377201">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -387,13 +387,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="DENIED 02" ID="{C7BCB0AF-3C26-4DD8-9CDB-FC447F5D3A7E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="REVERSE 02" ID="{A30BFAD0-8B6B-40A0-A220-DA9C39A5A85A}" ShortID="206975771" Type="SoundFX">
+						<Sound Name="REVERSE 02" ID="{A30BFAD0-8B6B-40A0-A220-DA9C39A5A85A}" ShortID="206975771">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -444,7 +444,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -531,13 +531,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="REVERSE 02" ID="{C5454A6C-C44E-4FBB-AF34-60A2056F7AF4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="REVERSE 01" ID="{653EDAF0-7825-42AB-AF33-E2F186821BE6}" ShortID="949951495" Type="SoundFX">
+						<Sound Name="REVERSE 01" ID="{653EDAF0-7825-42AB-AF33-E2F186821BE6}" ShortID="949951495">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -588,7 +588,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -714,16 +714,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="REVERSE 01" ID="{E7F46696-FF39-4B65-84A7-05DD9475CF84}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BEEP 02" ID="{81A3BDA1-521A-4309-B626-BF7B4CBFC250}" ShortID="90658726" Type="SoundFX">
+						<Sound Name="BEEP 02" ID="{81A3BDA1-521A-4309-B626-BF7B4CBFC250}" ShortID="90658726">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -810,16 +810,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="BEEP 02" ID="{98502D68-430F-49BA-B350-6A9193D5C1BF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BEEP 04" ID="{7A782422-8AAF-42D4-A555-2F194CD9D8BE}" ShortID="801341697" Type="SoundFX">
+						<Sound Name="BEEP 04" ID="{7A782422-8AAF-42D4-A555-2F194CD9D8BE}" ShortID="801341697">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -944,16 +944,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="BEEP 04" ID="{305AE0E2-7014-4A83-9E80-74082E68C984}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="CONFIRM 01" ID="{0140E852-B3C6-4BC7-9A6C-119EB61BC4E9}" ShortID="708995018" Type="SoundFX">
+						<Sound Name="CONFIRM 01" ID="{0140E852-B3C6-4BC7-9A6C-119EB61BC4E9}" ShortID="708995018">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1042,16 +1042,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="CONFIRM 01" ID="{DAE0224A-FBF4-478E-96F0-5987459DEDEE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="CONFIRM 02" ID="{41822D80-CF83-4F0C-BC79-0D629A07ED88}" ShortID="956257880" Type="SoundFX">
+						<Sound Name="CONFIRM 02" ID="{41822D80-CF83-4F0C-BC79-0D629A07ED88}" ShortID="956257880">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1140,16 +1140,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="CONFIRM 02" ID="{972D5AFA-832E-4D85-9B37-203498A7029F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PANEL 01" ID="{701A830B-C3D5-49E2-99B9-BEB361516C99}" ShortID="685906723" Type="SoundFX">
+						<Sound Name="PANEL 01" ID="{701A830B-C3D5-49E2-99B9-BEB361516C99}" ShortID="685906723">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1277,16 +1277,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="PANEL 01" ID="{AB999014-C8E0-436B-86BE-8CF8F77A4FB0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PANEL 02" ID="{E6D375B5-B75D-4DFC-92A6-EB425A3D926A}" ShortID="661434876" Type="SoundFX">
+						<Sound Name="PANEL 02" ID="{E6D375B5-B75D-4DFC-92A6-EB425A3D926A}" ShortID="661434876">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1440,16 +1440,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="PANEL 02" ID="{3799BD58-313B-4717-A251-8669FB180852}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PANEL 03" ID="{52D9B159-31AB-4161-9B06-3CC61321901A}" ShortID="1057613143" Type="SoundFX">
+						<Sound Name="PANEL 03" ID="{52D9B159-31AB-4161-9B06-3CC61321901A}" ShortID="1057613143">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1603,7 +1603,7 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="PANEL 03" ID="{05DCC212-2C5A-4497-AC60-EBE2BA10529B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="DENIED 03" ID="{60F71277-000E-4738-A84F-554233719C0F}" ShortID="707549476" Type="SoundFX">
+						<Sound Name="DENIED 03" ID="{60F71277-000E-4738-A84F-554233719C0F}" ShortID="707549476">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
@@ -1616,10 +1616,10 @@ Content provided by Vincent Gagnon
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1740,13 +1740,13 @@ Content provided by Vincent Gagnon
 				</Folder>
 				<Folder Name="SFX" ID="{3DB737F0-EA3C-4EFE-9744-4CB5B432D997}" ShortID="630299464">
 					<ChildrenList>
-						<Sound Name="MAGIC 02" ID="{38781695-80FA-4DBD-9B09-634988F63B4F}" ShortID="1005430341" Type="SoundFX">
+						<Sound Name="MAGIC 02" ID="{38781695-80FA-4DBD-9B09-634988F63B4F}" ShortID="1005430341">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{A98F423C-EC97-49D8-8698-445CE91F24B7}">
@@ -1769,7 +1769,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1930,13 +1930,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="MAGIC 02" ID="{F13B1274-6C5E-47E6-884E-DF2A81A801F2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="NOISE RND" ID="{2E15B033-BE33-4472-A648-B1F8A0B6D360}" ShortID="647474582" Type="SoundFX">
+						<Sound Name="NOISE RND" ID="{2E15B033-BE33-4472-A648-B1F8A0B6D360}" ShortID="647474582">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{4802B2EA-6509-49B5-9A9D-96A566855A05}">
@@ -2025,7 +2025,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2114,13 +2114,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="NOISE RND" ID="{6642A424-7588-437E-AF0A-B996619AE876}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="NOISE" ID="{F0420733-DB06-4B41-B533-A09A593621DB}" ShortID="987374896" Type="SoundFX">
+						<Sound Name="NOISE" ID="{F0420733-DB06-4B41-B533-A09A593621DB}" ShortID="987374896">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -2171,7 +2171,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2260,13 +2260,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="NOISE" ID="{48C4F3ED-07A8-44B3-A1DB-4B0D4C4D83D7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="MAGIC 01" ID="{EFD826B2-A28D-4EC3-8609-0608A240168A}" ShortID="261935516" Type="SoundFX">
+						<Sound Name="MAGIC 01" ID="{EFD826B2-A28D-4EC3-8609-0608A240168A}" ShortID="261935516">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{A98F423C-EC97-49D8-8698-445CE91F24B7}">
@@ -2289,7 +2289,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2375,13 +2375,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="MAGIC 01" ID="{F1F04EF3-C61F-436D-AE89-CE32B659AE1F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="DRONE 01" ID="{AD16630F-53D6-4D57-AEED-C855C933FBCD}" ShortID="267797287" Type="SoundFX">
+						<Sound Name="DRONE 01" ID="{AD16630F-53D6-4D57-AEED-C855C933FBCD}" ShortID="267797287">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{87647CCF-6C02-444E-BD2B-218B649CF174}">
@@ -2435,7 +2435,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2562,13 +2562,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="DRONE 01" ID="{65E82AB0-7BD0-4260-BB08-D38DF6DB74AD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SPELL 01" ID="{EEF54F94-D1F7-41B0-828D-7865EBB037D8}" ShortID="619313905" Type="SoundFX">
+						<Sound Name="SPELL 01" ID="{EEF54F94-D1F7-41B0-828D-7865EBB037D8}" ShortID="619313905">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{A98F423C-EC97-49D8-8698-445CE91F24B7}">
@@ -2591,7 +2591,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2738,13 +2738,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="SPELL 01" ID="{19C685F1-0FB4-4D69-8D10-276E6BB202A1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SPELL 02" ID="{37535B43-D5EE-4ED3-957F-B73222B7EDCF}" ShortID="272098062" Type="SoundFX">
+						<Sound Name="SPELL 02" ID="{37535B43-D5EE-4ED3-957F-B73222B7EDCF}" ShortID="272098062">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}">
@@ -2766,7 +2766,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2925,13 +2925,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="SPELL 02" ID="{A6230E2A-355B-4F4F-B291-E3B7DD88998D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SPELL 03" ID="{DF1750CB-1437-412B-A6C6-EC935EE8558F}" ShortID="928598511" Type="SoundFX">
+						<Sound Name="SPELL 03" ID="{DF1750CB-1437-412B-A6C6-EC935EE8558F}" ShortID="928598511">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}">
@@ -2953,7 +2953,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3374,13 +3374,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="SPELL 03" ID="{F1ED3AD9-B042-4712-81A5-F5A24F6189CB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="MAGIC 03" ID="{A54D6246-833E-4CC0-8CD1-AAB108CA3D60}" ShortID="773690026" Type="SoundFX">
+						<Sound Name="MAGIC 03" ID="{A54D6246-833E-4CC0-8CD1-AAB108CA3D60}" ShortID="773690026">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{A98F423C-EC97-49D8-8698-445CE91F24B7}">
@@ -3403,7 +3403,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3749,7 +3749,7 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="MAGIC 03" ID="{613E4A5E-9D65-433C-B465-4EF318630446}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="WOOSH 01" ID="{D20E3EFA-B789-45C6-9378-2FBC5C645B05}" ShortID="750422735" Type="SoundFX">
+						<Sound Name="WOOSH 01" ID="{D20E3EFA-B789-45C6-9378-2FBC5C645B05}" ShortID="750422735">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
@@ -3795,7 +3795,7 @@ Content provided by Vincent Gagnon
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -3846,7 +3846,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3971,7 +3971,7 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="WOOSH 01" ID="{11B55B11-DE82-46BA-824E-4F695D1A10BE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="WOOSH 02" ID="{68BBA8F9-B821-44EB-8961-4042EE160FF9}" ShortID="537732585" Type="SoundFX">
+						<Sound Name="WOOSH 02" ID="{68BBA8F9-B821-44EB-8961-4042EE160FF9}" ShortID="537732585">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
@@ -4017,7 +4017,7 @@ Content provided by Vincent Gagnon
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -4068,7 +4068,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -4228,13 +4228,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="WOOSH 02" ID="{EA64FA15-FE0C-4D37-AB07-E62AE5DA634A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="COSMIC WIND" ID="{749FD0BA-A392-4C9A-BA3F-EAD7ECF22F0D}" ShortID="1477311" Type="SoundFX">
+						<Sound Name="COSMIC WIND" ID="{749FD0BA-A392-4C9A-BA3F-EAD7ECF22F0D}" ShortID="1477311">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -4335,7 +4335,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -4528,13 +4528,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="COSMIC WIND" ID="{6AE83903-44AA-46EE-9F10-B6E81CD6E01C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="DRONE 02" ID="{A71A58D3-D595-45E8-925C-1FF2FE7484A2}" ShortID="247064535" Type="SoundFX">
+						<Sound Name="DRONE 02" ID="{A71A58D3-D595-45E8-925C-1FF2FE7484A2}" ShortID="247064535">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{87647CCF-6C02-444E-BD2B-218B649CF174}">
@@ -4587,7 +4587,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -4714,13 +4714,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="DRONE 02" ID="{0947FC47-34BD-49B5-937E-F8604987AEC4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="DRONE 03" ID="{98F7797D-2B37-43A6-B3A8-24A3053AC9FF}" ShortID="983311038" Type="SoundFX">
+						<Sound Name="DRONE 03" ID="{98F7797D-2B37-43A6-B3A8-24A3053AC9FF}" ShortID="983311038">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{87647CCF-6C02-444E-BD2B-218B649CF174}">
@@ -4885,7 +4885,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5087,13 +5087,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="DRONE 03" ID="{C8147B8C-8B9A-4F30-B3AB-C17237465DC6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="COMM 01" ID="{017F4467-7F79-4202-8696-36990609783A}" ShortID="818517912" Type="SoundFX">
+						<Sound Name="COMM 01" ID="{017F4467-7F79-4202-8696-36990609783A}" ShortID="818517912">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -5145,7 +5145,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5335,13 +5335,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="COMM 01" ID="{526C625C-388C-42E7-934E-6435D4F631CA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="COMM 02" ID="{7E183FEC-822E-475C-9348-DD60B9AC623F}" ShortID="768017620" Type="SoundFX">
+						<Sound Name="COMM 02" ID="{7E183FEC-822E-475C-9348-DD60B9AC623F}" ShortID="768017620">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -5393,7 +5393,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5683,16 +5683,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="COMM 02" ID="{26AFB39D-F2AB-4695-94F2-6C8BB20D9E9B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ALARM 02" ID="{4A0A374E-A349-4401-9611-0601D2D4472F}" ShortID="476591949" Type="SoundFX">
+						<Sound Name="ALARM 02" ID="{4A0A374E-A349-4401-9611-0601D2D4472F}" ShortID="476591949">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5818,16 +5818,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="ALARM 02" ID="{70661E42-3555-4A13-9F97-C4D5C3CD6137}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ALARM 03" ID="{D35C8CD0-AD06-4DCE-8347-14ECCA74FDEE}" ShortID="698932765" Type="SoundFX">
+						<Sound Name="ALARM 03" ID="{D35C8CD0-AD06-4DCE-8347-14ECCA74FDEE}" ShortID="698932765">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -6026,16 +6026,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="ALARM 03" ID="{83FFF39C-5FE9-41AE-A61D-7C718B509B6D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ALARM 01" ID="{5B1CA97B-BE5D-4BFA-94B1-1AFE79CE6ED0}" ShortID="232535097" Type="SoundFX">
+						<Sound Name="ALARM 01" ID="{5B1CA97B-BE5D-4BFA-94B1-1AFE79CE6ED0}" ShortID="232535097">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -6200,16 +6200,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="ALARM 01" ID="{012A3631-2042-4E49-9275-2B73D546C973}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="DOWNLOAD 02" ID="{D280BB63-C973-45D3-A1FB-0D1681D3A87E}" ShortID="650627669" Type="SoundFX">
+						<Sound Name="DOWNLOAD 02" ID="{D280BB63-C973-45D3-A1FB-0D1681D3A87E}" ShortID="650627669">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -6486,16 +6486,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="DOWNLOAD 02" ID="{A39D1D4A-9AF0-46C8-AE86-B09AD3EA87B6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="DOWNLOAD 01" ID="{23DAD6F2-A40F-4692-9AEA-DEFD22861C84}" ShortID="743032359" Type="SoundFX">
+						<Sound Name="DOWNLOAD 01" ID="{23DAD6F2-A40F-4692-9AEA-DEFD22861C84}" ShortID="743032359">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -6659,13 +6659,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="DOWNLOAD 01" ID="{9E6A4EDA-8D26-4979-9C95-7F4A6EE4F9E8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="OPEN CHEST" ID="{43413EB7-E5E9-415D-AC1C-77BC6C675B38}" ShortID="991176530" Type="SoundFX">
+						<Sound Name="OPEN CHEST" ID="{43413EB7-E5E9-415D-AC1C-77BC6C675B38}" ShortID="991176530">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{42D64342-8C0F-4A1A-AF5A-8D4F58BED9B6}">
@@ -6717,7 +6717,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -7100,13 +7100,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="OPEN CHEST" ID="{D46D4883-B4A5-42F3-9336-971F49623703}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="WHA" ID="{EF73AC61-1E97-40DA-851E-333121E717FA}" ShortID="776379768" Type="SoundFX">
+						<Sound Name="WHA" ID="{EF73AC61-1E97-40DA-851E-333121E717FA}" ShortID="776379768">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{68FF5646-E051-4031-BE1A-513C3B1173F8}">
@@ -7237,7 +7237,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -7330,16 +7330,16 @@ Content provided by Vincent Gagnon
 				</Folder>
 				<Folder Name="Instruments" ID="{B717E3BA-327D-4122-B62E-C5B36729E5BE}" ShortID="34790640">
 					<ChildrenList>
-						<Sound Name="FM 01" ID="{8ED96B85-04D5-497E-9202-F7FD0E19131F}" ShortID="1059841717" Type="SoundFX">
+						<Sound Name="FM 01" ID="{8ED96B85-04D5-497E-9202-F7FD0E19131F}" ShortID="1059841717">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -7462,16 +7462,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="FM 01" ID="{CF84617F-EFC5-4954-B8F9-B6286667367E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SQUARE 8va" ID="{9A3B8700-945D-478A-815F-BDE3DBE822B2}" ShortID="157221808" Type="SoundFX">
+						<Sound Name="SQUARE 8va" ID="{9A3B8700-945D-478A-815F-BDE3DBE822B2}" ShortID="157221808">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -7555,13 +7555,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="SQUARE 8va" ID="{EA5094F7-A8BB-43D1-A224-2EDC560F682E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="RING 02" ID="{5B27E5C3-F21C-4BB6-A4F6-D6A1B1415FDE}" ShortID="317935870" Type="SoundFX">
+						<Sound Name="RING 02" ID="{5B27E5C3-F21C-4BB6-A4F6-D6A1B1415FDE}" ShortID="317935870">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{EFD1AD33-87EB-4D22-8B4D-873C54BA5444}">
@@ -7579,7 +7579,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -7741,16 +7741,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="RING 02" ID="{61E7D86C-68EB-4807-9C9A-3C565107559B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SQUARE" ID="{74D118B2-BB0B-4BDB-AB24-CD44306F2FC4}" ShortID="38901634" Type="SoundFX">
+						<Sound Name="SQUARE" ID="{74D118B2-BB0B-4BDB-AB24-CD44306F2FC4}" ShortID="38901634">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -7834,13 +7834,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="SQUARE" ID="{84B06421-5236-4190-A21F-B7E9D37BD774}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PAD 02" ID="{5F0C2E41-5C80-4BD9-B9A4-651696E326AF}" ShortID="874595007" Type="SoundFX">
+						<Sound Name="PAD 02" ID="{5F0C2E41-5C80-4BD9-B9A4-651696E326AF}" ShortID="874595007">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{ECA4CEEF-728F-410A-8315-4E14C12FBAED}">
@@ -7892,7 +7892,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -7980,13 +7980,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="PAD 02" ID="{DD751134-E94B-4411-AC69-D9044FCD23FF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SAW FIFTH" ID="{305544F9-4B6B-4EAF-8CF5-AD616003C5C8}" ShortID="706162549" Type="SoundFX">
+						<Sound Name="SAW FIFTH" ID="{305544F9-4B6B-4EAF-8CF5-AD616003C5C8}" ShortID="706162549">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{1BC374A9-F37D-40BB-B1D5-038CC22B144E}">
@@ -8037,7 +8037,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -8123,16 +8123,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="SAW FIFTH" ID="{82234EEC-A298-413A-9FFC-8C3547B8649E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="FLUTISH" ID="{6CCA3DEA-2AAC-44AE-BF89-BE67D9D018A4}" ShortID="793953328" Type="SoundFX">
+						<Sound Name="FLUTISH" ID="{6CCA3DEA-2AAC-44AE-BF89-BE67D9D018A4}" ShortID="793953328">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -8294,13 +8294,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="FLUTISH" ID="{97647AE2-9125-468B-BDA2-15A24EAC5F30}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PWM" ID="{2471B7C0-A2AA-43B7-B20E-C57CAAD36FDC}" ShortID="572594542" Type="SoundFX">
+						<Sound Name="PWM" ID="{2471B7C0-A2AA-43B7-B20E-C57CAAD36FDC}" ShortID="572594542">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{92BB5E5A-22D3-4AE5-B802-32D05BA8EE65}">
@@ -8352,7 +8352,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -8515,13 +8515,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="PWM" ID="{F7E3B7EF-E9A5-4100-B4A3-AAD9D19425D0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="8BIT 04" ID="{6DF358AE-6918-40F6-B9A8-A9CE20FBE92D}" ShortID="363750318" Type="SoundFX">
+						<Sound Name="8BIT 04" ID="{6DF358AE-6918-40F6-B9A8-A9CE20FBE92D}" ShortID="363750318">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{DE5925E4-C5F3-4788-98E8-76C9933858C1}">
@@ -8538,7 +8538,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -8625,13 +8625,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="8BIT 04" ID="{B38A7095-C177-4CAB-B5D6-B0B35883B7CB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PAD 01" ID="{F3CD44A2-4D05-48A2-8F20-BFA6B0B1AD65}" ShortID="877133994" Type="SoundFX">
+						<Sound Name="PAD 01" ID="{F3CD44A2-4D05-48A2-8F20-BFA6B0B1AD65}" ShortID="877133994">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{ECA4CEEF-728F-410A-8315-4E14C12FBAED}">
@@ -8683,7 +8683,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -8770,13 +8770,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="PAD 01" ID="{58BB7876-2D4D-4669-A19E-E7C401B2863F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="RING 01" ID="{07869E42-FCEF-46C6-AC10-A142EAA40F9D}" ShortID="371221605" Type="SoundFX">
+						<Sound Name="RING 01" ID="{07869E42-FCEF-46C6-AC10-A142EAA40F9D}" ShortID="371221605">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{544C7185-D35B-41F6-8D67-6D3CD05F48F5}">
@@ -8828,7 +8828,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -8916,13 +8916,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="RING 01" ID="{999CDA11-B301-40E6-B4B9-83140DCDDEF6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BASS 01" ID="{06BFEA56-2B22-48E7-9CC7-507788A0775F}" ShortID="1033134454" Type="SoundFX">
+						<Sound Name="BASS 01" ID="{06BFEA56-2B22-48E7-9CC7-507788A0775F}" ShortID="1033134454">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{3C4F6810-E137-40B2-B285-0903430B3B05}">
@@ -8974,7 +8974,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -9060,13 +9060,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="BASS 01" ID="{4C0AB644-DE5B-4032-AEFD-F6CEFB70A2FE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PERC 03" ID="{D3A03658-4F66-4784-A418-42B1AE6D8A12}" ShortID="568614672" Type="SoundFX">
+						<Sound Name="PERC 03" ID="{D3A03658-4F66-4784-A418-42B1AE6D8A12}" ShortID="568614672">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -9118,7 +9118,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -9204,16 +9204,16 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="PERC 03" ID="{CD9446A6-4FCD-4A03-9F66-A74BEFD0CF4C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="FM 02" ID="{72314FC0-8FCF-472B-B9B5-368E6E785115}" ShortID="166794123" Type="SoundFX">
+						<Sound Name="FM 02" ID="{72314FC0-8FCF-472B-B9B5-368E6E785115}" ShortID="166794123">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -9377,13 +9377,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="FM 02" ID="{2744F82A-06DF-4013-AAF8-7CB865E081B8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="FM 03" ID="{954540E4-60F9-4CF2-BC24-7DAF981BF54C}" ShortID="393026170" Type="SoundFX">
+						<Sound Name="FM 03" ID="{954540E4-60F9-4CF2-BC24-7DAF981BF54C}" ShortID="393026170">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -9435,7 +9435,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -9523,13 +9523,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="FM 03" ID="{4A513EC9-BA74-4FAE-B232-B29FBA8034D7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="MINI LEAD" ID="{F1110090-492A-4AE3-B9B0-25318F6C0880}" ShortID="21793219" Type="SoundFX">
+						<Sound Name="MINI LEAD" ID="{F1110090-492A-4AE3-B9B0-25318F6C0880}" ShortID="21793219">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{634A1FBA-5225-43B5-9BCA-5712D7BF8A73}">
@@ -9581,7 +9581,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -9741,13 +9741,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="MINI LEAD" ID="{44D89273-5831-45F7-8C3D-EA710998450C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SAW" ID="{A68B0053-8E66-4407-B36E-6F80933290E3}" ShortID="20461777" Type="SoundFX">
+						<Sound Name="SAW" ID="{A68B0053-8E66-4407-B36E-6F80933290E3}" ShortID="20461777">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -9798,7 +9798,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -9884,13 +9884,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="SAW" ID="{DF189500-ED9B-4521-834B-7B56E950C902}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="FALLING OCTAVE" ID="{93570864-5F12-427F-915C-AF2729D31797}" ShortID="973373246" Type="SoundFX">
+						<Sound Name="FALLING OCTAVE" ID="{93570864-5F12-427F-915C-AF2729D31797}" ShortID="973373246">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{9F4EB010-1FD7-41E1-B78E-5AF8A4CAD082}">
@@ -9941,7 +9941,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -10104,13 +10104,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="OCTAVE DANCE" ID="{E4953E88-0665-4C47-848E-C7813140812F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="FALLING" ID="{DE6E55C0-5169-47EA-AF3A-AD69CFC5EFFF}" ShortID="658272931" Type="SoundFX">
+						<Sound Name="FALLING" ID="{DE6E55C0-5169-47EA-AF3A-AD69CFC5EFFF}" ShortID="658272931">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{9F4EB010-1FD7-41E1-B78E-5AF8A4CAD082}">
@@ -10161,7 +10161,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -10359,13 +10359,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="FIFTH DANCE" ID="{2F40A974-1EF5-41BA-8373-6C8A53FC7E38}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="8BIT 01" ID="{7FC4D62A-0618-4C1B-AC0A-14955C39F423}" ShortID="566060662" Type="SoundFX">
+						<Sound Name="8BIT 01" ID="{7FC4D62A-0618-4C1B-AC0A-14955C39F423}" ShortID="566060662">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{DE5925E4-C5F3-4788-98E8-76C9933858C1}">
@@ -10382,7 +10382,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -10467,13 +10467,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="8BIT 01" ID="{D4E2F299-7528-4D69-AE6F-E64003ADC033}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="8BIT 02" ID="{3612A187-35BA-4377-95EE-9E151A4986A8}" ShortID="688568475" Type="SoundFX">
+						<Sound Name="8BIT 02" ID="{3612A187-35BA-4377-95EE-9E151A4986A8}" ShortID="688568475">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{DE5925E4-C5F3-4788-98E8-76C9933858C1}">
@@ -10490,7 +10490,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -10573,13 +10573,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="8BIT 02" ID="{3569A211-72F7-4770-AAA3-E0A8A92AC226}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="8BIT 03" ID="{27D64863-D04D-4EC5-B37B-194AE28BE694}" ShortID="656823833" Type="SoundFX">
+						<Sound Name="8BIT 03" ID="{27D64863-D04D-4EC5-B37B-194AE28BE694}" ShortID="656823833">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{DE5925E4-C5F3-4788-98E8-76C9933858C1}">
@@ -10596,7 +10596,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -10713,13 +10713,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="8BIT 03" ID="{B235B6B4-E6E1-48D6-8245-11A1A51AB224}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BASS 05" ID="{9862EE99-44DB-457C-8173-F610FBB355BB}" ShortID="302155990" Type="SoundFX">
+						<Sound Name="BASS 05" ID="{9862EE99-44DB-457C-8173-F610FBB355BB}" ShortID="302155990">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{3C4F6810-E137-40B2-B285-0903430B3B05}">
@@ -10771,7 +10771,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -10861,13 +10861,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="BASS 05" ID="{7FDBAFD0-D4D0-4CF4-8188-94A33B8BEDD8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BRASSY" ID="{925AA098-946C-4DEF-9A10-A8A33DB25864}" ShortID="445132404" Type="SoundFX">
+						<Sound Name="BRASSY" ID="{925AA098-946C-4DEF-9A10-A8A33DB25864}" ShortID="445132404">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{D6F3B260-59C6-4128-B808-6E091D91A739}">
@@ -10921,7 +10921,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -11006,13 +11006,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="BRASSY" ID="{6782B683-3353-4265-9F55-82354F5F6D94}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="OPENING" ID="{5E5FD812-F483-49A3-BEEF-F131AC992277}" ShortID="936075702" Type="SoundFX">
+						<Sound Name="OPENING" ID="{5E5FD812-F483-49A3-BEEF-F131AC992277}" ShortID="936075702">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{BFE70315-D680-420E-A7C5-4C5001B99340}">
@@ -11139,7 +11139,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -11225,13 +11225,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="OPENING" ID="{3FE5684A-DF8F-4B38-9B73-61BEB9CBEE86}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BASS 03" ID="{0BB5C298-297D-4194-BAA3-1AC2E4B862E1}" ShortID="1018296160" Type="SoundFX">
+						<Sound Name="BASS 03" ID="{0BB5C298-297D-4194-BAA3-1AC2E4B862E1}" ShortID="1018296160">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{BB4433CB-EF2F-440B-A0EB-81FAE9B2FC72}">
@@ -11286,7 +11286,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -11375,13 +11375,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="BASS 03" ID="{E8CB65C5-CC60-4E67-BBD6-760D3BC24EF0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="FM 04" ID="{1FA07523-A81E-4F8F-9A9F-E355CCC56E4D}" ShortID="393026169" Type="SoundFX">
+						<Sound Name="FM 04" ID="{1FA07523-A81E-4F8F-9A9F-E355CCC56E4D}" ShortID="393026169">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -11432,7 +11432,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -11520,13 +11520,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="FM 04" ID="{40368E8D-55B2-401B-853F-3E6899848E73}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PERC 01" ID="{5ED4C51E-6C71-4C3A-84F7-2764FC1B568A}" ShortID="568614671" Type="SoundFX">
+						<Sound Name="PERC 01" ID="{5ED4C51E-6C71-4C3A-84F7-2764FC1B568A}" ShortID="568614671">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{84DA2ACF-4911-4BA7-987A-C75151AFFD7C}">
@@ -11577,7 +11577,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -11663,13 +11663,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="PERC 01" ID="{8AA98B5C-33E8-469A-A8FA-9F77A5943A80}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PERC 02" ID="{6EA8DCEA-8931-430E-B37A-1B27002E47AD}" ShortID="69030584" Type="SoundFX">
+						<Sound Name="PERC 02" ID="{6EA8DCEA-8931-430E-B37A-1B27002E47AD}" ShortID="69030584">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{E3C05A98-43F2-42ED-8383-F76CD129EA5B}">
@@ -11721,7 +11721,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -11811,13 +11811,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="PERC 02" ID="{C5CDD13B-64B9-475F-AC1A-481344EEDE91}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="HARPSY" ID="{20EBC66D-D0F7-4975-A4C1-0BBCAD1CD84B}" ShortID="150410035" Type="SoundFX">
+						<Sound Name="HARPSY" ID="{20EBC66D-D0F7-4975-A4C1-0BBCAD1CD84B}" ShortID="150410035">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{F1AC0072-AA82-4B65-87DA-CA10FD9AD2BB}">
@@ -11869,7 +11869,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -11958,13 +11958,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="HARPSY" ID="{F442E018-CBD3-4248-8831-5E77A0F2E7A1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BASS 04" ID="{C4EA7552-9DAD-4A0A-BF25-33E60A72A59E}" ShortID="1042572956" Type="SoundFX">
+						<Sound Name="BASS 04" ID="{C4EA7552-9DAD-4A0A-BF25-33E60A72A59E}" ShortID="1042572956">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{D6F3B260-59C6-4128-B808-6E091D91A739}">
@@ -12018,7 +12018,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -12073,13 +12073,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="BASS 04" ID="{6C473E85-8CDB-4D65-BAA5-434351E618B8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BASS 02" ID="{4BDCC92B-9684-436D-9D3A-64F6184DC935}" ShortID="458626471" Type="SoundFX">
+						<Sound Name="BASS 02" ID="{4BDCC92B-9684-436D-9D3A-64F6184DC935}" ShortID="458626471">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{BB4433CB-EF2F-440B-A0EB-81FAE9B2FC72}">
@@ -12134,7 +12134,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -12224,13 +12224,13 @@ Content provided by Vincent Gagnon
 								<ActiveSource Name="BASS 02" ID="{EC83AF32-46BA-4FA9-BC3E-A501C92B6A2C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="RING 03" ID="{6BF15896-FB0C-486C-B0C4-EF0A632492A0}" ShortID="224775197" Type="SoundFX">
+						<Sound Name="RING 03" ID="{6BF15896-FB0C-486C-B0C4-EF0A632492A0}" ShortID="224775197">
 							<Comment>Audiokinetic Inc. All rights reserved.
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B0BAF55-8081-407B-A6DC-5F94091C8113}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{657137A3-C49B-4F6A-BA24-76E22E84F2B0}"/>
 								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{B854A884-0051-4EEF-A8C4-0F2D1C1F9C07}">
@@ -12245,7 +12245,7 @@ Content provided by Vincent Gagnon
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F335DF-692A-44BB-8052-285C6E33CDE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
