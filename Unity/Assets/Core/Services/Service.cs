@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
 public abstract class Service : ScriptableObject {
 
     public delegate void serviceStatusDelegate();
@@ -9,6 +11,7 @@ public abstract class Service : ScriptableObject {
     public event serviceStatusDelegate OnServiceStart;
     public event serviceStatusDelegate OnServiceEnd;
 
+    [SerializeField]
     private bool _isRunning;
 
     public bool IsRunning { get { return _isRunning; } }

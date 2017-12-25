@@ -3,12 +3,16 @@ using UnityEditor;
 using System.Collections.Generic;
 using System;
 
+[Serializable]
 public abstract class UserService<T> : Service where T:User
 {
     private const string USER_DATA_KEY = "user_data";
     private const string USER_DATA_BACKUP_KEY = "user_data_backup";
 
+    [SerializeField]
     private T _user;
+
+    public T User { get { return _user; } }
 
     public override void StartService()
     {
@@ -18,25 +22,24 @@ public abstract class UserService<T> : Service where T:User
 
     private T Load()
     {
-        T user = null;
+        T user = ScriptableObject.CreateInstance<T>();
+        user.UID = SystemInfo.deviceUniqueIdentifier;
 
         if (!PlayerPrefs.HasKey(USER_DATA_KEY))
         {
             Debug.Log("No user data found. Creating new with UID "+ SystemInfo.deviceUniqueIdentifier);
-            user = GenericFactoryUtility<T>.Create(new object[] { SystemInfo.deviceUniqueIdentifier });
         }
         else
         {
             try
             {
-                user = JsonUtility.FromJson<T>(PlayerPrefs.GetString(USER_DATA_KEY));
+                JsonUtility.FromJsonOverwrite(PlayerPrefs.GetString(USER_DATA_KEY), user);
                 Debug.Log("User Loaded: "+user.UID);
             }
             catch(Exception e)
             {
                 Debug.LogError("Failed to load user. Creating new user: "+e);
                 PlayerPrefs.SetString(USER_DATA_BACKUP_KEY, PlayerPrefs.GetString(USER_DATA_KEY));
-                user = GenericFactoryUtility<T>.Create(new object[] { SystemInfo.deviceUniqueIdentifier });
             }
         }
 

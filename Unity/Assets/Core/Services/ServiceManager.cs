@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "ServiceManager", menuName = "Services/Manager", order =0)]
+[Serializable]
 public class ServiceManager : ScriptableObject {
 
     [SerializeField]
@@ -25,6 +26,8 @@ public class ServiceManager : ScriptableObject {
 
     public void StartServices()
     {
+        Debug.Log("Service Manager starting: " + name);
+
         //If we are calling start 2 times, fail out
         if (_isRunning)
         {
@@ -32,9 +35,9 @@ public class ServiceManager : ScriptableObject {
             return;
         }
 
-        foreach(Service service in _services)
+        foreach (Service service in _services)
         {
-            Debug.Log("Service starting: " + service.GetType());
+            Debug.Log("Service "+service.name+" starting: Type(" + service.GetType()+")");
             service.StartService();
             _serviceLookup.Add(service.GetType(), service);
         }
@@ -48,15 +51,17 @@ public class ServiceManager : ScriptableObject {
 
     public void EndServices()
     {
+        Debug.Log("Service Manager ending: " + name);
+
         _serviceLookup.Clear();
 
         foreach (Service service in _services)
         {
-            Debug.Log("Service ended: " + service.GetType());
+            Debug.Log("Service " + service.name + " ending: Type(" + service.GetType() + ")");
             service.EndService();
         }
 
-        Debug.Log("ServiceManager ended with " + _services.Count + " services ended.");
+        Debug.Log("ServiceManager ending with " + _services.Count + " services suspended.");
         _isRunning = false;
 
         if (OnServicesEnd != null)
