@@ -48,11 +48,16 @@ public abstract class UserService<T> : Service where T:User
 
     public void Save()
     {
+        Save(_user);
+    }
+
+    public void Save(User user)
+    {
         try
         {
-            string data = JsonUtility.ToJson(_user);
+            string data = JsonUtility.ToJson(user);
             PlayerPrefs.SetString(USER_DATA_KEY, data);
-            Debug.Log("User Data saved: " + _user.UID);
+            Debug.Log("User Data saved: " + user.UID);
         }
         catch (Exception e)
         {
