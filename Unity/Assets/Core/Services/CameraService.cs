@@ -25,6 +25,21 @@ public class CameraService : Service
         base.StartService();
     }
 
+    public void Focus(CameraAgent agent)
+    {
+        if (_activeMaster)
+        {
+            if (_activeAgent)
+                _activeAgent.FocusEnd(_activeMaster);
+
+            _activeMaster.Focus(agent);
+
+            _activeAgent = agent;
+            agent.FocusStart(_activeMaster);
+        }
+            
+    }
+
     public override void EndService()
     {
         base.EndService();

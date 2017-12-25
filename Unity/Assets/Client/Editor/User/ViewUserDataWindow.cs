@@ -45,6 +45,8 @@ public class ViewUserDataWindow : EditorWindow
 
     void OnGUI()
     {
+        if (GUILayout.Button("Clear User Data"))
+            OnClearData();
         if (GUILayout.Button("Save User Data"))
             OnSaveData();
 
@@ -60,5 +62,16 @@ public class ViewUserDataWindow : EditorWindow
         PandeaUserService service = AssetDatabaseUtility.GetAssetAtPath<PandeaUserService>(SERVICE_ASSET_SERVICE);
         service.Save(_user);
         service = null;
+
+        EditorUtility.DisplayDialog("Success", "User Succesfuly saved: " + _user.UID, "ok");
+    }
+
+    private void OnClearData()
+    {
+        PandeaUserService service = AssetDatabaseUtility.GetAssetAtPath<PandeaUserService>(SERVICE_ASSET_SERVICE);
+        service.ClearUserData();
+        service = null;
+
+        EditorUtility.DisplayDialog("Success", "User data cleared.", "ok");
     }
 }

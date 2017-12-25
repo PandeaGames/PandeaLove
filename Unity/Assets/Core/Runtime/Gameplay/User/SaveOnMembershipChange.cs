@@ -10,7 +10,7 @@ public abstract class SaveOnMembershipChange<T> : MonoBehaviour where T : User {
     protected abstract UserService<T> GetUserService();
 
     // Use this for initialization
-    void Start () {
+    public virtual void Start () {
         _member.Changed += OnMembershipChange;
     }
 	
@@ -19,7 +19,7 @@ public abstract class SaveOnMembershipChange<T> : MonoBehaviour where T : User {
 		
 	}
 
-    private void OnMembershipChange(List<SECTR_Sector> left, List<SECTR_Sector> joined)
+    protected virtual void OnMembershipChange(List<SECTR_Sector> left, List<SECTR_Sector> joined)
     {
         GetUserService().Save();
     }

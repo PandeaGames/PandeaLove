@@ -2,18 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraAgent : MonoBehaviour {
+public abstract class CameraAgent : MonoBehaviour {
 
     [SerializeField]
-    private CameraService _cameraService;
+    protected CameraService _cameraService;
+    public abstract Vector3 GetCameraPosition();
+    public abstract Quaternion GetCameraRotation();
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public virtual void FocusStart(CameraMaster master)
+    {
+
+    }
+
+    public virtual void FocusEnd(CameraMaster master)
+    {
+
+    }
 }
