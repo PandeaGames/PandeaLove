@@ -1,0 +1,40 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public abstract class Service : ScriptableObject {
+
+    public delegate void serviceStatusDelegate();
+
+    public event serviceStatusDelegate OnServiceStart;
+    public event serviceStatusDelegate OnServiceEnd;
+
+    private bool _isRunning;
+
+    public bool IsRunning { get { return _isRunning; } }
+
+    public Service()
+    {
+        
+    }
+
+    public virtual void StartService()
+    {
+        _isRunning = true;
+
+        if (OnServiceStart != null)
+        {
+            OnServiceStart();
+        }
+    }
+
+    public virtual void EndService()
+    {
+        _isRunning = false;
+
+        if (OnServiceEnd != null)
+        {
+            OnServiceEnd();
+        }
+    }
+}
