@@ -26,6 +26,9 @@ public class PandeaSaveOnMembershipChange : SaveOnMembershipChange<PandeaUser> {
 
     protected override void OnMembershipChange(List<SECTR_Sector> left, List<SECTR_Sector> joined)
     {
+        if (joined == null)
+            return;
+
         if (joined.Count == 0)
         {
             base.OnMembershipChange(left, joined);

@@ -15,9 +15,9 @@ public abstract class SaveOnMembershipChange<T> : MonoBehaviour where T : User {
     }
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
+	void OnDestroy () {
+        _member.Changed -= OnMembershipChange;
+    }
 
     protected virtual void OnMembershipChange(List<SECTR_Sector> left, List<SECTR_Sector> joined)
     {
