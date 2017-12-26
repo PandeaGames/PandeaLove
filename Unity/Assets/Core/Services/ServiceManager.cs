@@ -3,9 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "ServiceManager", menuName = "Services/Manager", order =0)]
 [Serializable]
-public class ServiceManager : ScriptableObject {
+public class ServiceManager : MonoBehaviour {
 
     [SerializeField]
     private List<Service> _services;
@@ -22,6 +21,16 @@ public class ServiceManager : ScriptableObject {
 	public ServiceManager()
     {
 
+    }
+
+    void Start()
+    {
+        StartServices();
+    }
+
+    private void OnDestroy()
+    {
+        EndServices();
     }
 
     public void StartServices()

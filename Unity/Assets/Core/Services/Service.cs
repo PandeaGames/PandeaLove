@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public abstract class Service : ScriptableObject {
+public abstract class Service : MonoBehaviour {
 
     public delegate void serviceStatusDelegate();
 

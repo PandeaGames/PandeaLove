@@ -21,12 +21,12 @@ public class ViewUserDataWindow : EditorWindow
 
     public void InitWindow()
     {
-        ServiceManager _serviceManager = AssetDatabaseUtility.GetAssetAtPath<ServiceManager>(SERVICE_ASSET);
-        _serviceManager.StartServices();
+        PandeaUserService _userService = new PandeaUserService();
+        _userService.StartService();
 
-        _user = _serviceManager.GetService<PandeaUserService>().User;
+        _user = _userService.User;
 
-        _serviceManager.EndServices();
+        _userService.EndService();
     }
 
     [SerializeField]
@@ -34,13 +34,13 @@ public class ViewUserDataWindow : EditorWindow
 
     private void LoadUser()
     {
-        PandeaUserService service = AssetDatabaseUtility.GetAssetAtPath<PandeaUserService>(SERVICE_ASSET_SERVICE);
-        service.StartService();
+        PandeaUserService _userService = new PandeaUserService();
+        _userService.StartService();
 
-        _user = service.User;
+        _user = _userService.User;
 
-        service.EndService();
-        service = null;
+        _userService.EndService();
+        _userService = null;
     }
 
     void OnGUI()
@@ -59,18 +59,18 @@ public class ViewUserDataWindow : EditorWindow
 
     private void OnSaveData()
     {
-        PandeaUserService service = AssetDatabaseUtility.GetAssetAtPath<PandeaUserService>(SERVICE_ASSET_SERVICE);
-        service.Save(_user);
-        service = null;
+        PandeaUserService _userService = new PandeaUserService();
+        _userService.Save(_user);
+        _userService = null;
 
         EditorUtility.DisplayDialog("Success", "User Succesfuly saved: " + _user.UID, "ok");
     }
 
     private void OnClearData()
     {
-        PandeaUserService service = AssetDatabaseUtility.GetAssetAtPath<PandeaUserService>(SERVICE_ASSET_SERVICE);
-        service.ClearUserData();
-        service = null;
+        PandeaUserService _userService = new PandeaUserService();
+        _userService.ClearUserData();
+        _userService = null;
 
         EditorUtility.DisplayDialog("Success", "User data cleared.", "ok");
     }

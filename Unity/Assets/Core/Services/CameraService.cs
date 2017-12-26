@@ -2,7 +2,6 @@
 using UnityEditor;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "CameraService", menuName = "Services/Camera", order = 0)]
 public class CameraService : Service
 {
     public delegate void cameraMasterChange(CameraMaster master);
