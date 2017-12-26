@@ -22,8 +22,8 @@ public class SimpleFollowAgent : CameraAgent
 
     public override Quaternion GetCameraRotation()
     {
-        if (_target != null)
-            return _target.rotation;
+        //if (_target != null)
+           // return _target.rotation;
         return new Quaternion();
     }
 }

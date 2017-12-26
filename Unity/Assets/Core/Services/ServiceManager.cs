@@ -23,7 +23,7 @@ public class ServiceManager : MonoBehaviour {
 
     }
 
-    void Start()
+    void Awake()
     {
         StartServices();
     }
