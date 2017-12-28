@@ -1,9 +1,7 @@
 ﻿using UnityEngine;
-using UnityEditor;
 using System.Collections.Generic;
 using System.Collections;
 
-[CreateAssetMenu(fileName = "GameService", menuName = "Services/Game", order = 0)]
 public class GameService : Service
 {
     private List<SECTR_Sector> _sectors;

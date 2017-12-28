@@ -18,24 +18,32 @@ public class SwimmerMaster : InputMaster
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
+        {
+            Vector3 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             _mouseDown = true;
+            _puppet.OnSwimStart(target);
+        }
+            
 
         if (Input.GetMouseButtonUp(0))
+        {
+            Vector3 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             _mouseDown = false;
+            _puppet.OnSwimEnd(target);
+        }
 
         if (_mouseDown)
         {
-            Vector3 mouse = Input.mousePosition;
-            mouse.z = 10;
-            _puppet.OnSwimTowards(Camera.main.ScreenToWorldPoint(mouse));
+            Vector3 target = Input.mousePosition;
+            target.z = 0.5f;
+            _puppet.OnSwimTowards(Camera.main.ScreenToWorldPoint(target));
         }
 
         if (Input.touchCount > 0)
         {
-            Touch touch = Input.GetTouch(0);
-            Vector3 mouse = touch.position;
-            mouse.z = 10;
-            _puppet.OnSwimTowards(Camera.main.ScreenToWorldPoint(mouse));
+            Vector3 target = Input.GetTouch(0).position;
+            target.z = 0.5f;
+            _puppet.OnSwimTowards(Camera.main.ScreenToWorldPoint(target));
         }
     }
 }

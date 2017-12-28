@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
-using UnityEditor;
 
-[CreateAssetMenu(fileName = "Core", menuName = "Data/Core", order = 1)]
 public class Core : ScriptableObject
 {
     [SerializeField]

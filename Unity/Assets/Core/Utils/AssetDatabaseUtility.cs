@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
-using UnityEditor;
+
 
 public class AssetDatabaseUtility
 {
     public static T GetAssetAtPath<T>(string path) where T : Object
     {
-        return AssetDatabase.LoadAssetAtPath<T>(path);
+        //return AssetDatabase.LoadAssetAtPath<T>(path);
+        return null;
     }
 
         public static T GetAssetByName<T>(string assetName, string rootPath ="") where T:Object
     {
-        Object[] assets = AssetDatabase.LoadAllAssetsAtPath(rootPath);
+        /*Object[] assets = AssetDatabase.LoadAllAssetsAtPath(rootPath);
 
         foreach (Object asset in assets)
         {
@@ -19,7 +20,7 @@ public class AssetDatabaseUtility
                 return (T) asset;
             }
         }
-
+        */
         return null; 
     }
 }
