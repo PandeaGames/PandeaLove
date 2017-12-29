@@ -19,20 +19,25 @@ public class CameraMaster : MonoBehaviour {
     }
 
     // Use this for initialization
-    void Start () {
+    void Start ()
+    {
         _cameraService.RegisterMaster(this);
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         if (_cameraAgent != null)
             UpdateCameraPosition(_cameraAgent);
-
 	}
 
     private void UpdateCameraPosition(CameraAgent agent)
     {
-        transform.position = agent.GetCameraPosition();
+        Vector3 pos = agent.GetCameraPosition();
+
+        transform.position = new Vector3(pos.x, pos.y, transform.position.z);
         transform.rotation = agent.GetCameraRotation();
+
+        _camera.orthographicSize = agent.GetCameraOrthographicScale();
     }
 }

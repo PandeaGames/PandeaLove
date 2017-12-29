@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SwimmerPuppet : InputPuppet
+public class SwimmerPuppet : SimplePointerMaster.SimplePointerPuppet
 {
     private const string ANIM_PARAM_SWIMMING = "Swimming";
 
@@ -30,47 +30,37 @@ public class SwimmerPuppet : InputPuppet
         UpdateFlip();
     }
 
-    public void OnSwimStart(Vector3 target)
+    public override void PuppetUpdate()
+    {
+
+    }
+
+    public override void OnPointerStart(Vector3 target)
     {
         _animator.SetBool(ANIM_PARAM_SWIMMING, true);
         _balancer.enabled = false;
 
-        Vector3 dir = target - transform.position;
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        Game2DMathUtils.LookAt(fromTransform: transform, toTarget: target);
     }
 
-    public void OnSwimEnd(Vector3 target)
+    public override void OnPointerEnd()
     {
         _animator.SetBool(ANIM_PARAM_SWIMMING, false);
         _balancer.enabled = true;
     }
 
-    public void OnSwimTowards(Vector3 target)
+    public override void OnPointer(Vector3 target)
     {
-        Vector3 targetDelta = target - transform.position;
-        float dist = Vector3.Distance(target, transform.position);
-
-        //get the angle between transform.forward and target delta
-        float angleDiff = Vector3.Angle(transform.right, targetDelta);
-
-        // get its cross product, which is the axis of rotation to
-        // get from one vector to the other
-        Vector3 cross = Vector3.Cross(transform.right, targetDelta);
-
-        // apply torque along that axis according to the magnitude of the angle.
-        _rigidBody.AddTorque(cross.z * angleDiff * 0.01f);
-
-        float force = _swimForce;
-        float aDelta = Mathf.PI - Mathf.Abs(cross.z);
-        float pDelta = aDelta / Mathf.PI;
-
-        force *= _swimForceCurve.Evaluate(pDelta);
-        force *= _swimForceCurve.Evaluate(Mathf.Clamp(dist, 0, _forceDistance) / _forceDistance);
-
-        Debug.Log(dist);
-
-        _rigidBody.AddForce(transform.right * force, ForceMode2D.Force);
+        Game2DMathUtils.ApplyTorqueAndForce(
+            fromTransform:transform,
+            toTarget:target,
+            body:_rigidBody,
+            torque:0.01f,
+            force:_swimForce,
+            rotationCurve:_swimForceCurve,
+            distanceClamp: _forceDistance,
+            distanceCurve:_swimForceCurve
+            );
     }
 
     private void UpdateFlip()

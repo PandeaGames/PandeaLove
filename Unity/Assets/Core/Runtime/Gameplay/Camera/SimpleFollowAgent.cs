@@ -5,9 +5,8 @@ public class SimpleFollowAgent : CameraAgent
     [SerializeField]
     private Transform _target;
 
-    public void Start()
-    {
-    }
+    [SerializeField]
+    private Vector3 offset;
 
     public override Vector3 GetCameraPosition()
     {
@@ -16,13 +15,11 @@ public class SimpleFollowAgent : CameraAgent
 
         Vector3 position = new Vector3(_target.position.x, _target.position.y, -1);
 
-        return position;
+        return position + offset;
     }
 
     public override Quaternion GetCameraRotation()
     {
-        //if (_target != null)
-           // return _target.rotation;
         return new Quaternion();
     }
 }
