@@ -25,6 +25,8 @@ public class Craft : MonoBehaviour
     [SerializeField]
     private CameraService _cameraService;
 
+    private CraftOperator _craftOperator;
+
     // Use this for initialization
     void Start()
     {
@@ -33,7 +35,16 @@ public class Craft : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(_craftOperator)
+            _craftOperator.transform.position = transform.position;
+    }
 
+    public void DestroyCraft()
+    {
+        _inputMaster.FocusOff();
+        _cameraService.Focus();
+        _craftOperator.OnCraftExited(this);
+        Destroy(gameObject);
     }
 
     public bool IsOperable(CraftOperator craftOperator)
@@ -54,6 +65,8 @@ public class Craft : MonoBehaviour
 
     protected void EnterCraft(CraftOperator craftOperator)
     {
+        _craftOperator = craftOperator;
+
         foreach (MonoBehaviour script in _disableOnEnter)
             script.enabled = false;
         foreach (MonoBehaviour script in _enableOnEnter)

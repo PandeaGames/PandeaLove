@@ -13,7 +13,7 @@ public class CameraMaster : MonoBehaviour {
     [SerializeField]
     private CameraService _cameraService;
 
-    public void Focus(CameraAgent agent)
+    public void Focus(CameraAgent agent = null)
     {
         _cameraAgent = agent;
     }

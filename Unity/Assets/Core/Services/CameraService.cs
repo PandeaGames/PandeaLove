@@ -23,7 +23,7 @@ public class CameraService : Service
         base.StartService();
     }
 
-    public void Focus(CameraAgent agent)
+    public void Focus(CameraAgent agent = null)
     {
         if (_activeMaster)
         {
@@ -31,11 +31,12 @@ public class CameraService : Service
                 _activeAgent.FocusEnd(_activeMaster);
 
             _activeMaster.Focus(agent);
-
-            _activeAgent = agent;
-            agent.FocusStart(_activeMaster);
         }
-            
+
+        if (agent)
+            agent.FocusStart(_activeMaster);
+
+        _activeAgent = agent;
     }
 
     public override void EndService()

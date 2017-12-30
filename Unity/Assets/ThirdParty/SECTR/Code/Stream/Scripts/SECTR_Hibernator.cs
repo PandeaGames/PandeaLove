@@ -196,7 +196,8 @@ public class SECTR_Hibernator : MonoBehaviour
 		if(HibernateRigidBodies)
 		{
 			Rigidbody[] bodies =  HibernateChildren ? hibernatedObject.GetComponentsInChildren<Rigidbody>() : hibernatedObject.GetComponents<Rigidbody>();
-			int numBodies = bodies.Length;
+            
+            int numBodies = bodies.Length;
 			for(int bodyIndex = 0; bodyIndex < numBodies; ++bodyIndex)
 			{
 				Rigidbody body = bodies[bodyIndex];
@@ -209,7 +210,25 @@ public class SECTR_Hibernator : MonoBehaviour
 					body.WakeUp();
 				}
 			}
-		}
+
+            Rigidbody2D[] bodies2D = HibernateChildren ? hibernatedObject.GetComponentsInChildren<Rigidbody2D>() : hibernatedObject.GetComponents<Rigidbody2D>();
+
+            int numBodies2D = bodies2D.Length;
+            for (int bodyIndex = 0; bodyIndex < numBodies2D; ++bodyIndex)
+            {
+                Rigidbody2D body = bodies2D[bodyIndex];
+                if (hibernating)
+                {
+                    body.simulated = false;
+                    body.Sleep();
+                }
+                else
+                {
+                    body.simulated = true;
+                    body.WakeUp();
+                }
+            }
+        }
 
 		if(HibernateColliders)
 		{
@@ -219,7 +238,14 @@ public class SECTR_Hibernator : MonoBehaviour
 			{
 				colliders[colliderIndex].enabled = !hibernating;
 			}
-		}
+
+            Collider2D[] colliders2D = HibernateChildren ? hibernatedObject.GetComponentsInChildren<Collider2D>() : hibernatedObject.GetComponents<Collider2D>();
+            int numColliders2D = colliders2D.Length;
+            for (int colliderIndex = 0; colliderIndex < numColliders2D; ++colliderIndex)
+            {
+                colliders2D[colliderIndex].enabled = !hibernating;
+            }
+        }
 
 		if(HibernateRenderers)
 		{

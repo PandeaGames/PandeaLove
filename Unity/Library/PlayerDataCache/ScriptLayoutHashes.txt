@@ -27,6 +27,7 @@ af723155c251fcfa0e66530a75f3ea4c UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 f4a106a17335f4365a2f2e2d7a5461f4 Assembly-CSharp.dll:SRDebugger.UI.Controls.ProfilerMemoryBlock
 fe2e8953d3842a1511cbfa7daef60a0c Assembly-CSharp.dll:.SECTR_LoadingDoor
 3c67ee339dd67750917c8afc925bda9a Assembly-CSharp.dll:.AkBank
+4be3c8dfb74b025bf40f1bd25e4c0cb6 Assembly-CSharp.dll:.CraftOperator
 105f8da8123ef8b587c538cb678d6dc0 Assembly-CSharp.dll:SRDebugger.UI.Controls.Data.EnumControl
 131344460cdf79ea31d20d126860836e Assembly-CSharp.dll:.User
 3214def534003d097d1ebb08d7eb2bc4 Assembly-CSharp.dll:SRDebugger.UI.Controls.MultiTapButton
@@ -159,7 +160,6 @@ af641c2d57c956a21f354d0785ca6535 Assembly-CSharp.dll:SRDebugger.UI.Controls.Cons
 b31e43769b06443e08b1134d90c3b9f7 Assembly-CSharp.dll:SRDebugger.UI.ProfilerFPSLabel
 558cd20dc8ab77b1edfbfe66a3e0ea06 Assembly-CSharp.dll:.PandeaUser
 1957a9369e72d2661ae9d0de26e7d064 Assembly-CSharp.dll:TMPro.Examples.WarpTextExample
-2baebd482ed38d6de96fefc8e78faec9 Assembly-CSharp.dll:.SwimmerMaster
 f4bd1aee67eeef7953cce6c44588b3d7 TextMeshPro-2017.2-1.0.56-Runtime.dll:TMPro.TextContainer
 8e879b98cad4aa17a0beef746daecd35 TextMeshPro-2017.2-1.0.56-Runtime.dll:TMPro.TextMeshPro
 cdb4459900f4743ae0e8ca5a2c3a821a TextMeshPro-2017.2-1.0.56-Runtime.dll:TMPro.TextMeshProUGUI
@@ -181,6 +181,7 @@ d672cee35261f9935d5ce974c746730f TextMeshPro-2017.2-1.0.56-Runtime.dll:TMPro.TMP
 97ebc45f00fda212565bbdc027806944 Assembly-CSharp.dll:SRDebugger.UI.Other.BugReportSheetController
 7eb1ff8466c7f0e834e6d00fbc5f8862 Assembly-CSharp.dll:SRF.UI.InheritColour
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
+ad9ea61b05f457e36c006fa74ad35f75 Assembly-CSharp.dll:.Craft
 8330da2f8c19775d9083be7ad2644fb0 Assembly-CSharp.dll:.PandeaUserService
 d4ac3a14ae2a7818cde55e33feed1e59 Assembly-CSharp.dll:.AkGameObj
 295fb169ef2e8e1346c126b710588b35 Assembly-CSharp.dll:SRDebugger.UI.Tabs.ConsoleTabController
@@ -199,6 +200,7 @@ b492059a9eaba1758103eae3cbf3d3c7 Assembly-CSharp.dll:.AkEventCallbackData
 00b5cf317a4801a175c0c800ec9dda28 Assembly-CSharp.dll:.SECTR_Chunk
 b3cc095b0e1d8585f7cd2c1347d807f5 Assembly-CSharp.dll:I2.Loc.ResourceManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:SRDebugger.Services.Implementation.DebugTriggerImpl
+3d6762f0380e21942a3cf8bd3653b9d5 Assembly-CSharp.dll:.DestroyCraft
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.Benchmark03
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:SRDebugger.Services.Implementation.PinnedUIServiceImpl
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SECTR_FogDisable
@@ -224,6 +226,7 @@ d672cee35261f9935d5ce974c746730f TextMeshPro-2017.2-1.0.56-Runtime.dll:TMPro.TMP
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_A
 438e72d1c59c3b8dac04b545cb394f7e Assembly-CSharp.dll:.SECTR_Sector
 b900ead596b2fb1093b31cb63a678767 Assembly-CSharp.dll:TMPro.Examples.TextMeshProFloatingText
+ba760668b978d77b986a85a8ebafb4a4 Assembly-CSharp.dll:.SimpleFollow
 a6d538aaefbf0a42c035f29266962f0e Assembly-CSharp.dll:SRDebugger.UI.Other.ScrollRectPatch
 b386e3be2579a8e059f18f8e626bbd40 Assembly-CSharp.dll:SRF.UI.LongPressButton
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:I2.Loc.GlobalParametersExample
@@ -254,6 +257,7 @@ fdcc1459544d8c08b09ec437640c9465 Assembly-CSharp.dll:.AkAudioListener
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:I2.Loc.Example_ChangeLanguage
 4649efe877c458cf58028a27b34acbf8 Assembly-CSharp.dll:SRDebugger.UI.Other.DockConsoleController
 3191d9397291fd4020ba4055d6f8f9ff Assembly-CSharp.dll:.SECTR_CharacterMotor
+2b63b17de4cc9a74921763008ad3d490 Assembly-CSharp.dll:.CraftService
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerControl
 0a9eae7329b85bf54bbdf2bd261c4305 Assembly-CSharp.dll:SRDebugger.UI.Controls.ConsoleLogControl
 a0f5a8d8f807f115ae26abfcaa508d2b Assembly-CSharp.dll:SRF.UI.ScrollToBottomBehaviour
@@ -265,6 +269,7 @@ a56de1bd2ffd31da566da34a64845f8c Assembly-CSharp.dll:SRDebugger.UI.Other.PinnedU
 8a50d3d11bf0cc541f5c35347dd25633 Assembly-CSharp.dll:TMPro.Examples.ShaderPropAnimator
 2b63b17de4cc9a74921763008ad3d490 Assembly-CSharp.dll:.CameraService
 06f8472977f4283b6c9f6e5cf9775d9d Assembly-CSharp.dll:I2.Loc.Localize
+c3e5617526d116adcf147df1f1c15c39 Assembly-CSharp.dll:.CraftPuppet
 48010593c4ef118a8bd1d23dddc65301 Assembly-CSharp.dll:SRDebugger.UI.Controls.Data.ReadOnlyControl
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CoreController
 76015de5fcb247eeb8df66c001d5a22d Assembly-CSharp.dll:TMPro.Examples.TMP_FrameRateCounter
@@ -296,7 +301,7 @@ e9486e1b04250fc75f92c35f133c9b79 Assembly-CSharp.dll:SRF.UI.SRSpinner
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:I2.Loc.ToggleLanguage
 3a06eb3a9a49f98f6e83c104f90088ea Assembly-CSharp.dll:SRDebugger.UI.Other.VersionTextBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:SRDebugger.Services.Implementation.BugReportApiService
-09f9071603590a5fddbac24e5e0b025e Assembly-CSharp.dll:.SimpleFollowAgent
+128c62b1726b1dd8252bc4d731a2de93 Assembly-CSharp.dll:.SimpleFollowAgent
 7db2001fce0adb6cb3d7ee44b1d549b0 Assembly-CSharp.dll:SRF.UI.StyleSheet
 ad37dc40b50266e7dc49dee5669b85d2 Assembly-CSharp.dll:.AkTriggerCollisionExit
 4f0712792e5ba383fa8f125e7c01ce5e Assembly-CSharp.dll:SRDebugger.UI.Other.HandleManager
@@ -309,6 +314,7 @@ ad37dc40b50266e7dc49dee5669b85d2 Assembly-CSharp.dll:.AkTriggerEnter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 2a56361227def9f56c2cf57a88b32f4d UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
+2bc4f170d7fe35d472b5784014a0d7a1 Assembly-CSharp.dll:.CraftAnchor
 7e1c49c96f52e72d8fb9872b20429eea Assembly-CSharp.dll:.AkEvent
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AkTerminator
 632d62ef97c783d85cd8f0e72aac75a0 Assembly-CSharp.dll:.SECTR_ChunkRef
@@ -341,9 +347,11 @@ c04ab02fc95b142737461397e41f8f18 Assembly-CSharp.dll:SRF.UI.ResponsiveEnable
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 f50dc514ff74db80c99947ce3275c115 Assembly-CSharp.dll:SRF.UI.DragHandle
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:SRDebugger.UI.Other.SetLayerFromSettings
+ad519b9bc5ab7e5145573af980fd49aa Assembly-CSharp.dll:.SimplePointerMaster
 166decca97773b6ff3dc2a910f641c24 Assembly-CSharp.dll:SRDebugger.UI.Other.DebugPanelBackgroundBehaviour
 347493bb0481c57dc28d0125ec8f93ac Assembly-CSharp.dll:.AkAmbient
 2a053a7690d251a29362ea400435c366 Assembly-CSharp.dll:.AkGameObjPosOffsetData
+8b85be440a89b519ebf8bc6c73a22893 Assembly-CSharp.dll:.AnchoredFollowAgent
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.TextConsoleSimulator
 813d2b9fe23f295d43062893f89feb38 Assembly-CSharp.dll:.SECTR_StreamDemoUI
 45fdf7e6bc89fc1fca884be22dcb35d0 Assembly-CSharp.dll:.InputFocusOnStart
