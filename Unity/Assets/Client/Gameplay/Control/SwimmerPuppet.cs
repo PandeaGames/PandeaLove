@@ -12,6 +12,18 @@ public class SwimmerPuppet : SimplePointerMaster.SimplePointerPuppet
     private Rigidbody2D _rigidBody;
 
     [SerializeField]
+    private CameraService _cameraService;
+
+    [SerializeField]
+    private SimpleFollowAgent _swimFollowAgent;
+
+    [SerializeField]
+    private AnchoredFollowAgent _anchoredFollowAgent;
+
+    [SerializeField]
+    private Transform _cameraAnchorTarget;
+
+    [SerializeField]
     private Balancer _balancer;
 
     [SerializeField]
@@ -23,7 +35,26 @@ public class SwimmerPuppet : SimplePointerMaster.SimplePointerPuppet
     [SerializeField]
     private float _forceDistance = 4;
 
+    [SerializeField]
+    private float _torque = 1;
+
+    [SerializeField]
+    private float _swimMass = 1;
+
+    [SerializeField]
+    private float _swimLinearDrag = 1;
+
+    [SerializeField]
+    private float _swimAngularDrag = 1;
+
+    [SerializeField]
+    private float _swimGravityScale = 1;
+
     private bool _flipped;
+    private float _mass;
+    private float _linearDrag;
+    private float _angularDrag;
+    private float _gravityScale;
 
     public void Update()
     {
@@ -35,27 +66,60 @@ public class SwimmerPuppet : SimplePointerMaster.SimplePointerPuppet
 
     }
 
+    public void OnAimStart(Vector3 target)
+    {
+    }
+
+    public void OnAimEnd()
+    {
+    }
+
+    public void OnAim(Vector3 target)
+    {
+    }
+
     public override void OnPointerStart(Vector3 target)
     {
+        _cameraService.Focus(_anchoredFollowAgent);
+
         _animator.SetBool(ANIM_PARAM_SWIMMING, true);
         _balancer.enabled = false;
 
         Game2DMathUtils.LookAt(fromTransform: transform, toTarget: target);
+
+        _mass = _rigidBody.mass;
+        _linearDrag = _rigidBody.drag;
+        _angularDrag = _rigidBody.angularDrag;
+        _gravityScale = _rigidBody.gravityScale;
+
+        _rigidBody.mass = _swimMass;
+        _rigidBody.drag = _swimLinearDrag;
+        _rigidBody.angularDrag = _swimAngularDrag;
+        _rigidBody.gravityScale = _swimGravityScale;
     }
 
     public override void OnPointerEnd()
     {
+        _cameraService.Focus(_swimFollowAgent);
+
         _animator.SetBool(ANIM_PARAM_SWIMMING, false);
         _balancer.enabled = true;
+
+        _rigidBody.mass = _mass;
+        _rigidBody.drag = _linearDrag;
+        _rigidBody.angularDrag = _angularDrag;
+        _rigidBody.gravityScale = _gravityScale;
     }
 
     public override void OnPointer(Vector3 target)
     {
+        _cameraAnchorTarget.transform.position = target;
+
         Game2DMathUtils.ApplyTorqueAndForce(
             fromTransform:transform,
             toTarget:target,
             body:_rigidBody,
-            torque:0.01f,
+            torque: _torque,
             force:_swimForce,
             rotationCurve:_swimForceCurve,
             distanceClamp: _forceDistance,
@@ -75,5 +139,49 @@ public class SwimmerPuppet : SimplePointerMaster.SimplePointerPuppet
         }
 
         transform.localScale = _flipped ? new Vector3(1, -1, 1): new Vector3(1, 1, 1);
+    }
+
+    public override void PuppetFocusOn()
+    {
+    }
+
+    public override void PuppetFocusOff()
+    {
+    }
+
+    public override void OnPointerStart(Vector3 target, int index)
+    {
+        if (index == 0)
+        {
+            OnPointerStart(target);
+        }
+        else if (index == 1)
+        {
+            OnAimStart(target);
+        }
+    }
+
+    public override void OnPointerEnd(int index)
+    {
+        if (index == 0)
+        {
+            OnPointerEnd();
+        }
+        else if (index == 1)
+        {
+            OnAimEnd();
+        }
+    }
+
+    public override void OnPointer(Vector3 target, int index)
+    {
+        if (index == 0)
+        {
+            OnPointer(target);
+        }
+        else if (index == 1)
+        {
+            OnAim(target);
+        }
     }
 }

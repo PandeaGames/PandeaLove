@@ -7,13 +7,13 @@ public abstract class InputMaster : MonoBehaviour
     public event focusDelgate OnFocusOn;
     public event focusDelgate OnFocusOff;
 
-    public void FocusOn()
+    public virtual void FocusOn()
     {
         if (OnFocusOn != null)
             OnFocusOn(this);
     }
 
-    public void FocusOff()
+    public virtual void FocusOff()
     {
         if (OnFocusOff != null)
             OnFocusOff(this);

@@ -7,6 +7,7 @@ Android
 c906602d9b43cc5e075f80e1d8ae7c79 Assembly-CSharp.dll:TMPro.Examples.Benchmark01_UGUI
 391e5114027b7a68fe5ed6270589bcc8 Assembly-CSharp.dll:SRDebugger.UI.Controls.SRTabButton
 0d89a55b8cc9ea69fb88ec67aeb3eac7 Assembly-CSharp.dll:.AkInitializer
+57191f25039bf86d8374cb221d7c2d91 Assembly-CSharp.dll:.PersistentServiceManager
 8d6f304e1ec6261d8a723c238413b398 Assembly-CSharp.dll:SRDebugger.Settings
 0979cf7ff3aa5670173b2c0653342035 Assembly-CSharp.dll:SRF.UI.ResponsiveResize
 08c4733ae942dc71c9f19095b141dd5c Assembly-CSharp.dll:SRF.UI.FlashGraphic
@@ -69,7 +70,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 ad37dc40b50266e7dc49dee5669b85d2 Assembly-CSharp.dll:.AkTriggerCollisionEnter
-1f7b0de2b72b37433b9f84cd6a41fc13 Assembly-CSharp.dll:.SwimmerPuppet
+65a44241ccf545982ff461900cc4fc46 Assembly-CSharp.dll:.SwimmerPuppet
 8f51b76a8b3b984f1aff636414ce9956 Assembly-CSharp.dll:SRF.UI.CopyPreferredSize
 691e3cb5b96f3d11c02be692c0c4b4f0 Assembly-CSharp.dll:.CameraMaster
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:SRDebugger.Services.Implementation.PinEntryServiceImpl
@@ -263,13 +264,14 @@ fdcc1459544d8c08b09ec437640c9465 Assembly-CSharp.dll:.AkAudioListener
 a0f5a8d8f807f115ae26abfcaa508d2b Assembly-CSharp.dll:SRF.UI.ScrollToBottomBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.TeleType
 d9287b6c16092b90b1ef5dc76b9e6b7f Assembly-CSharp.dll:SRDebugger.UI.Controls.Data.BoolControl
+2f33d2f1be6fc4d538093582ede01630 Assembly-CSharp.dll:.SpriteRendererGroupTint
 145c861ef52b480ece1e30c95eba9a23 Assembly-CSharp.dll:SRDebugger.UI.Controls.ProfilerGraphControl
 a56de1bd2ffd31da566da34a64845f8c Assembly-CSharp.dll:SRDebugger.UI.Other.PinnedUIRoot
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:I2.Loc.RegisterBundlesManager
 8a50d3d11bf0cc541f5c35347dd25633 Assembly-CSharp.dll:TMPro.Examples.ShaderPropAnimator
 2b63b17de4cc9a74921763008ad3d490 Assembly-CSharp.dll:.CameraService
 06f8472977f4283b6c9f6e5cf9775d9d Assembly-CSharp.dll:I2.Loc.Localize
-c3e5617526d116adcf147df1f1c15c39 Assembly-CSharp.dll:.CraftPuppet
+002fd4edfcf3606b1c5d2f015dcf2c0d Assembly-CSharp.dll:.CraftPuppet
 48010593c4ef118a8bd1d23dddc65301 Assembly-CSharp.dll:SRDebugger.UI.Controls.Data.ReadOnlyControl
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CoreController
 76015de5fcb247eeb8df66c001d5a22d Assembly-CSharp.dll:TMPro.Examples.TMP_FrameRateCounter

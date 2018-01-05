@@ -18,11 +18,6 @@ public class ServiceManager : MonoBehaviour {
 
     public bool IsRunning { get { return _isRunning; } }
 
-	public ServiceManager()
-    {
-
-    }
-
     public virtual void Awake()
     {
         StartServices();
