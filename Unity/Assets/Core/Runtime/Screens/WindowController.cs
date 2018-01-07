@@ -41,60 +41,10 @@ public class ScreenTransition
 
 public class WindowController : MonoBehaviour
 {
-    private class LoadedScreenScene : MonoBehaviour
-    {
-        private ScreenController _controller;
-        private Scene _scene;
-
-        public ScreenController Controller { set { _controller = value; } }
-        public Scene Scene { set { _scene = value; } }
-
-        public LoadedScreenScene(ScreenController controller, Scene scene)
-        {
-            _controller = controller;
-            _scene = scene;
-        }
-
-        public void TransitionScreen(ScreenTransition transition)
-        {
-            _controller.Transition(transition);
-            _controller.OnTransitionComplete += TransitionComplete;
-        }
-
-        private void TransitionComplete(ScreenController controller)
-        {
-            controller.OnTransitionComplete -= TransitionComplete;
-            StartCoroutine(UnloadScene());
-        }
-
-        private IEnumerator UnloadScene()
-        {
-            AsyncOperation asyncLoad = SceneManager.UnloadSceneAsync(_scene);
-
-            //Wait until the last operation fully loads to return anything
-            while (!asyncLoad.isDone)
-            {
-                yield return null;
-            }
-
-            CleanupAfterUnload();
-        }
-
-        private void CleanupAfterUnload()
-        {
-            Destroy(_controller.gameObject);
-
-            _scene = default(Scene);
-            _controller = null;
-
-            Destroy(this);
-        }
-    }
-
     [SerializeField]
     private bool _overlapTransitions;
 
-    private LoadedScreenScene _activeScene;
+    private ScreenController _activeScreen;
 
     public virtual void LaunchScreen(ScreenTransition transition)
     {
@@ -143,14 +93,47 @@ public class WindowController : MonoBehaviour
             return;
         }
 
-        if (_activeScene != null)
-            _activeScene.TransitionScreen(transition);
+        if (_activeScreen != null)
+        {
+            _activeScreen.Transition(transition);
+            _activeScreen.OnTransitionComplete += TransitionComplete;
+        }
 
-        _activeScene = gameObject.AddComponent<LoadedScreenScene>();
-        _activeScene.Controller = controller;
-        _activeScene.Scene = scene;
+        _activeScreen = controller;
 
         controller.Transition(transition);
-        controller.transform.SetParent(transform);
+        controller.transform.SetParent(transform, true);
+        controller.Setup(this, transition.ScreenConfig);
+
+        RectTransform rt = controller.GetComponent<RectTransform>();
+        rt.anchorMin = Vector2.zero;
+        rt.anchorMax = Vector2.one;
+        rt.sizeDelta = Vector2.zero;
+
+        StartCoroutine(UnloadScene(scene));
+    }
+
+    public void TransitionScreen(ScreenTransition transition)
+    {
+        
+    }
+
+    private void TransitionComplete(ScreenController controller)
+    {
+        controller.OnTransitionComplete -= TransitionComplete;
+        Destroy(controller.gameObject);
+    }
+
+    private IEnumerator UnloadScene(Scene scene)
+    {
+        AsyncOperation asyncLoad = SceneManager.UnloadSceneAsync(scene);
+
+        //Wait until the last operation fully loads to return anything
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+
+        //done unload of scene
     }
 }
