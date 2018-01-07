@@ -46,22 +46,18 @@ public class DialogService : Service
         base.EndService();
     }
 
-    public Dialog DisplayDialog<T>(Dialog.Config config) where T:Dialog
+    public void DisplayDialog<T>(Dialog.Config config, Dialog.DialogResponseDelegate responseDelegate = null) where T:Dialog
     {
         GameObject prefab = GetDialogPrefab<T>();
 
         if (prefab == null)
         {
             Debug.LogError("Cannot display dialog: " + typeof(T).Name);
-            return null;
+            return;
         }
 
         Debug.LogError("Display Dialog type " + typeof(T).Name+" with config "+config);
-
-        Dialog dialog;
-        _dialogStage.ShowDialog(prefab, config, out dialog);
-
-        return dialog;
+        _dialogStage.ShowDialog(prefab, config, responseDelegate);
     }
 
     public GameObject GetDialogPrefab<T>() where T : Dialog

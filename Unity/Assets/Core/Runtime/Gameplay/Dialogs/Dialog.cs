@@ -4,6 +4,20 @@ using System;
 
 public abstract class Dialog : MonoBehaviour
 {
+    public class Response
+    {
+        
+    }
+
+    [Serializable]
+    public class Config : ScriptableObject
+    {
+        public Config()
+        {
+        }
+    }
+
+    public delegate void DialogResponseDelegate(Response response);
     public delegate void DialogDelegate(Dialog dialog);
 
     public event DialogDelegate OnFocus;
@@ -13,20 +27,15 @@ public abstract class Dialog : MonoBehaviour
     public event DialogDelegate OnClose;
     public event DialogDelegate OnCancel;
 
-    public class Config
-    {
-        public Config()
-        {
-        }
-    }
-
     [SerializeField]
     public GameObject _closeButton;
 
+    private DialogResponseDelegate _responseDelegate;
     private Config _config;
 
-    public virtual void Setup(Config config) {
+    public virtual void Setup(Config config, DialogResponseDelegate responseDelegate = null) {
         _config = config;
+        _responseDelegate = responseDelegate;
     }
 
     public void OnDestroy()
@@ -72,7 +81,6 @@ public abstract class Dialog : MonoBehaviour
                 OnCancel -= (DialogDelegate)d;
             OnCancel = null;
         }
-
     }
 
     public void Focus()
@@ -103,11 +111,19 @@ public abstract class Dialog : MonoBehaviour
     {
         if (OnClose != null)
             OnClose(this);
+
+        if (_responseDelegate != null)
+            _responseDelegate(GenerateResponse());
     }
 
     public void Cancel()
     {
         if (OnCancel != null)
             OnCancel(this);
+    }
+
+    protected virtual Response GenerateResponse()
+    {
+        return new Response();
     }
 }

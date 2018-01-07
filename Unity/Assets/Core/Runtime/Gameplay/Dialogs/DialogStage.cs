@@ -6,11 +6,11 @@ public class DialogStage : MonoBehaviour
     [SerializeField]
     private Transform _stage;
 
-    public void ShowDialog(GameObject prefab, Dialog.Config config, out Dialog dialog)
+    public void ShowDialog(GameObject prefab, Dialog.Config config, Dialog.DialogResponseDelegate response = null)
     {
         GameObject prefabInstance = Instantiate(prefab, _stage);
 
-        dialog = prefabInstance.GetComponent<Dialog>();
+        Dialog dialog = prefabInstance.GetComponent<Dialog>();
 
         if (!dialog)
         {
@@ -21,7 +21,7 @@ public class DialogStage : MonoBehaviour
         dialog.OnCancel += OnDialogCancel;
         dialog.OnClose += OnDialogClose;
 
-        dialog.Setup(config);
+        dialog.Setup(config, response);
     }
 
     private void BlurDialog(Dialog dialog)
