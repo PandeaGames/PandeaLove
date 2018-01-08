@@ -5,16 +5,19 @@ using UnityEngine;
 public class PandeaSaveOnMembershipChange : SaveOnMembershipChange<PandeaUser> {
 
     [SerializeField]
-    private PandeaUserService _userService;
+    private ServiceManager _serviceManager;
 
+    private PandeaUserService _userService;
     private PandeaUser _user;
     private GameProgress _progress;
 
     // Use this for initialization
     public override void Start()
     {
+        _userService = _serviceManager.GetService<PandeaUserService>();
         _user = _userService.User;
         _progress = _user.GameProgress;
+
         base.Start();
     }
 

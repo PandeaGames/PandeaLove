@@ -12,7 +12,7 @@ public class SwimmerPuppet : SimplePointerMaster.SimplePointerPuppet
     private Rigidbody2D _rigidBody;
 
     [SerializeField]
-    private CameraService _cameraService;
+    private ServiceManager _serviceManager;
 
     [SerializeField]
     private SimpleFollowAgent _swimFollowAgent;
@@ -50,11 +50,17 @@ public class SwimmerPuppet : SimplePointerMaster.SimplePointerPuppet
     [SerializeField]
     private float _swimGravityScale = 1;
 
+    private CameraService _cameraService;
     private bool _flipped;
     private float _mass;
     private float _linearDrag;
     private float _angularDrag;
     private float _gravityScale;
+
+    public void Start()
+    {
+        _cameraService = _serviceManager.GetService<CameraService>();
+    }
 
     public void Update()
     {

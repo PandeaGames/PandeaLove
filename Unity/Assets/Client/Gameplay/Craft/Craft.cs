@@ -23,13 +23,15 @@ public class Craft : MonoBehaviour
     private CameraAgent _cameraAgent;
 
     [SerializeField]
-    private CameraService _cameraService;
+    private ServiceManager _serviceManager;
 
+    private CameraService _cameraService;
     private CraftOperator _craftOperator;
 
     // Use this for initialization
     void Start()
     {
+        _cameraService = _serviceManager.GetService<CameraService>();
     }
 
     // Update is called once per frame

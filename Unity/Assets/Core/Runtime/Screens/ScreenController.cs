@@ -29,7 +29,7 @@ public class ScreenController : MonoBehaviour
         _config = config;
     }
 
-    public void Start()
+    public virtual void Start()
     {
         _rectTransform = GetComponent<RectTransform>();
     }

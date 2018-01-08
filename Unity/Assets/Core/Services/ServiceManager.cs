@@ -72,14 +72,50 @@ public class ServiceManager : MonoBehaviour {
             OnServicesEnd();
     }
 
+    public bool ContainsService<T>() where T : Service
+    {
+        Service service = null;
+        _serviceLookup.TryGetValue(typeof(T), out service);
+        return service != null;
+    }
+
     public T GetService<T>() where T:Service
     {
         Service service = null;
         _serviceLookup.TryGetValue(typeof(T), out service);
 
         if (!service)
+            service = FetchServiceDependancy<T>();
+
+        if (!service)
             Debug.LogError("Requested service was not found: "+ typeof(T));
 
         return (T)service;
+    }
+    
+    private T FetchServiceDependancy<T>() where T : Service
+    {
+        T service = null;
+        ServiceManager[] serviceManagers = FindObjectsOfType<ServiceManager>();
+
+        foreach(ServiceManager serviceManager in serviceManagers)
+        {
+            if (serviceManager.ContainsService<T>())
+            {
+                service = serviceManager.GetService<T>();
+                break;
+            }
+        }
+
+        if (!service)
+        {
+            service = gameObject.AddComponent<T>();
+            service.StartService();
+            Debug.Log("Service " + service.name + " starting: Type(" + service.GetType() + ")");
+        }
+
+        _serviceLookup.Add(typeof(T), service);
+
+        return service;
     }
 }

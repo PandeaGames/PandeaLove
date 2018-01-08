@@ -5,12 +5,19 @@ using UnityEngine;
 public abstract class CameraAgent : MonoBehaviour {
 
     [SerializeField]
-    protected CameraService _cameraService;
+    protected ServiceManager _serviceManager;
 
     [SerializeField]
     private float scale = 1;
 
+    protected CameraService _cameraService;
+
     public abstract Vector3 GetCameraPosition();
+
+    public void Start()
+    {
+        _cameraService = _serviceManager.GetService<CameraService>();
+    }
 
     public virtual Quaternion GetCameraRotation()
     {

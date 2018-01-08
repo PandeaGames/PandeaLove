@@ -11,6 +11,8 @@ public class CameraMaster : MonoBehaviour {
     private CameraAgent _cameraAgent;
 
     [SerializeField]
+    private ServiceManager _serviceManager;
+
     private CameraService _cameraService;
 
     public void Focus(CameraAgent agent = null)
@@ -21,6 +23,7 @@ public class CameraMaster : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
+        _cameraService = _serviceManager.GetService<CameraService>();
         _cameraService.RegisterMaster(this);
     }
 	

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class CraftOperator : MonoBehaviour
 {
     [SerializeField]
-    private CameraService _cameraService;
+    private ServiceManager _serviceManager;
 
     [SerializeField]
     private List<MonoBehaviour> _disableOnEnter;
@@ -43,18 +43,13 @@ public class CraftOperator : MonoBehaviour
     [SerializeField]
     private CameraAgent _focusCamera;
 
+    private CameraService _cameraService;
     private bool _isKinematic;
 
     // Use this for initialization
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        _cameraService = _serviceManager.GetService<CameraService>();
     }
 
     public void OnCraftEntered(Craft craft)
