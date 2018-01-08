@@ -45,13 +45,15 @@ public class ViewUserDataWindow : EditorWindow
 
     void OnGUI()
     {
+        if (_user == null)
+            LoadUser();
+
         if (GUILayout.Button("Clear User Data"))
             OnClearData();
         if (GUILayout.Button("Save User Data"))
             OnSaveData();
-
-        if (_user == null)
-            LoadUser();
+        if (GUILayout.Button("Create Asset"))
+            OnCreateAsset();
 
         Editor editor = Editor.CreateEditor(_user);
         editor.OnInspectorGUI();
@@ -73,5 +75,15 @@ public class ViewUserDataWindow : EditorWindow
         _userService = null;
 
         EditorUtility.DisplayDialog("Success", "User data cleared.", "ok");
+    }
+
+    private void OnCreateAsset()
+    {
+        Debug.Log(_user);
+        AssetDatabase.CreateAsset(_user, "Assets/userData.asset");
+
+        EditorGUIUtility.PingObject(_user);
+
+        EditorUtility.DisplayDialog("Success", "Asset Created", "ok");
     }
 }

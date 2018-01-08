@@ -111,6 +111,7 @@ public class ServiceManager : MonoBehaviour {
         {
             service = gameObject.AddComponent<T>();
             service.StartService();
+            _services.Add(service);
             Debug.Log("Service " + service.name + " starting: Type(" + service.GetType() + ")");
         }
 
