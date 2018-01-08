@@ -10,6 +10,11 @@ public class ScreenController : MonoBehaviour
 
     }
 
+    public class Result : ScriptableObject
+    {
+
+    }
+
     public delegate void ScreenControllerDelegate(ScreenController controller);
 
     public event ScreenControllerDelegate OnTransitionComplete;
@@ -49,7 +54,7 @@ public class ScreenController : MonoBehaviour
     private IEnumerator DelayedTransitionComplete()
     {
         yield return null;
-
+        
         TransitionComplete();
     }
 
@@ -57,5 +62,10 @@ public class ScreenController : MonoBehaviour
     {
         if (OnTransitionComplete != null)
             OnTransitionComplete(this);
+    }
+
+    public Result GetResult()
+    {
+        return ScriptableObject.CreateInstance<Result>();
     }
 }

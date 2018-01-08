@@ -20,10 +20,13 @@ public class ScreenTransition
     private Direction _direction;
     [SerializeField]
     private ScreenController.Config _screenConfig;
+    [SerializeField]
+    private ScreenController.Result _result;
 
     public string SceneId { get { return _sceneId; } }
     public Direction Direction { get { return _direction; } }
     public ScreenController.Config ScreenConfig { get { return _screenConfig; } }
+    public ScreenController.Result Result { get { return _result; } }
 
     public ScreenTransition(string sceneId, ScreenController.Config screenConfig, Direction direction)
     {
@@ -32,7 +35,17 @@ public class ScreenTransition
         _sceneId = sceneId;
     }
 
+    public ScreenTransition(string sceneId, ScreenController.Config screenConfig, ScreenController.Result result, Direction direction):this(sceneId, screenConfig, direction)
+    {
+        _result = result;
+    }
+
     public ScreenTransition(string sceneId, ScreenController.Config screenConfig) : this(sceneId, screenConfig, Direction.TO)
+    {
+
+    }
+
+    public ScreenTransition(string sceneId, ScreenController.Config screenConfig, ScreenController.Result result) : this(sceneId, screenConfig, result, Direction.TO)
     {
 
     }
@@ -53,7 +66,14 @@ public class WindowController : MonoBehaviour
 
     public virtual void LaunchScreen(string sceneId, ScreenController.Config screenConfig)
     {
-        LaunchScreen(new ScreenTransition(sceneId, screenConfig));
+        if (_activeScreen)
+        {
+            LaunchScreen(new ScreenTransition(sceneId, screenConfig, _activeScreen.GetResult()));
+        }
+        else
+        {
+            LaunchScreen(new ScreenTransition(sceneId, screenConfig));
+        }
     }
 
     public void RemoveScreen()
