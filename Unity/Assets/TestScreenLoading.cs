@@ -9,7 +9,7 @@ public class TestScreenLoading : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.U))
             _windowController.LaunchScreen(new ScreenTransition("TestScreenP", ScriptableObject.CreateInstance<ScreenController.Config>()));
         if (Input.GetKeyDown(KeyCode.O))
             _windowController.LaunchScreen(new ScreenTransition("TestScreenO", ScriptableObject.CreateInstance<ScreenController.Config>()));
