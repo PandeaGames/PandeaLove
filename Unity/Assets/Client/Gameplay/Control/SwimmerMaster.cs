@@ -2,29 +2,28 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class SimplePointerMaster : InputMaster
+public class SwimmerMaster : InputMaster
 {
-    public abstract class SimplePointerPuppet : InputPuppet
-    {
-        public abstract void OnPointerStart(Vector3 target, int index);
-        public abstract void OnPointerStart(Vector3 target);
-        public abstract void OnPointerEnd(int index);
-        public abstract void OnPointerEnd();
-        public abstract void OnPointer(Vector3 target, int index);
-        public abstract void OnPointer(Vector3 target);
-        public abstract void PuppetFocusOn();
-        public abstract void PuppetFocusOff();
-    }
+    [SerializeField]
+    private SwimmerPuppet _puppet;
 
     [SerializeField]
-    private SimplePointerPuppet _puppet;
+    private ServiceManager _serviceManager;
 
     private bool _pointerDown;
     private Dictionary<int, bool> _touchDown = new Dictionary<int, bool>();
     private int _touchCount;
+    private SwimmerFocusService _swimmerFocusService;
+
+    public void Start()
+    {
+        _swimmerFocusService = _serviceManager.GetService<SwimmerFocusService>();
+    }
 
     void Update()
     {
+        GameObject focusedObject = _swimmerFocusService.FocusedObject;
+        bool hasFocus = focusedObject != null;
         _puppet.PuppetUpdate();
 
         if (Input.GetMouseButtonDown(0))
@@ -34,20 +33,18 @@ public class SimplePointerMaster : InputMaster
 
             _pointerDown = true;
             _puppet.OnPointerStart(target);
+            _swimmerFocusService.Blur();
         }
 
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && _pointerDown)
         {
-            Vector3 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            target.z = 0.5f;
-
             _pointerDown = false;
             _puppet.OnPointerEnd();
         }
 
-        if (_pointerDown)
+        if (_pointerDown || hasFocus)
         {
-            Vector3 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 target = hasFocus ? focusedObject.transform.position : Camera.main.ScreenToWorldPoint(Input.mousePosition);
             target.z = 0.5f;
 
             _puppet.OnPointer(target);
@@ -55,7 +52,7 @@ public class SimplePointerMaster : InputMaster
 
         Touch touch;
 
-        for(int i = Input.touchCount; i < _touchCount; i++)
+        for (int i = Input.touchCount; i < _touchCount; i++)
         {
             _puppet.OnPointerEnd(i);
             _touchDown.Add(0, false);

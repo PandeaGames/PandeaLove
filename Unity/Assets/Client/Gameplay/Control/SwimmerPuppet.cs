@@ -86,8 +86,6 @@ public class SwimmerPuppet : SimplePointerMaster.SimplePointerPuppet
 
     public override void OnPointerStart(Vector3 target)
     {
-        _cameraService.Focus(_anchoredFollowAgent);
-
         _animator.SetBool(ANIM_PARAM_SWIMMING, true);
         _balancer.enabled = false;
 
@@ -106,8 +104,6 @@ public class SwimmerPuppet : SimplePointerMaster.SimplePointerPuppet
 
     public override void OnPointerEnd()
     {
-        _cameraService.Focus(_swimFollowAgent);
-
         _animator.SetBool(ANIM_PARAM_SWIMMING, false);
         _balancer.enabled = true;
 
@@ -119,8 +115,6 @@ public class SwimmerPuppet : SimplePointerMaster.SimplePointerPuppet
 
     public override void OnPointer(Vector3 target)
     {
-        _cameraAnchorTarget.transform.position = target;
-
         Game2DMathUtils.ApplyTorqueAndForce(
             fromTransform:transform,
             toTarget:target,
