@@ -8,14 +8,18 @@ public class GameService : Service
 
     public IEnumerator<SECTR_Sector> SectorsEnumerator { get { return _sectors.GetEnumerator(); } }
 
-    public GameService() : base()
-    {
+    private Player _focusedPlayer;
 
+    public Player FocusedPlayer { get { return _focusedPlayer; } }
+
+    public void FocusPlayer(Player player)
+    {
+        _focusedPlayer = player;
     }
 
-    public override void StartService()
+    public override void StartService(ServiceManager serviceManager)
     {
-        base.StartService();
+        base.StartService(serviceManager);
         _sectors = new List<SECTR_Sector>(FindObjectsOfType<SECTR_Sector>());
     }
 }

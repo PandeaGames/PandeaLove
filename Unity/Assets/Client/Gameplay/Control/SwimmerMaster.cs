@@ -14,10 +14,13 @@ public class SwimmerMaster : InputMaster
     private Dictionary<int, bool> _touchDown = new Dictionary<int, bool>();
     private int _touchCount;
     private SwimmerFocusService _swimmerFocusService;
+    private ContactFilter2D _contactFiler2D;
 
     public void Start()
     {
         _swimmerFocusService = _serviceManager.GetService<SwimmerFocusService>();
+        _contactFiler2D = new ContactFilter2D();
+        _contactFiler2D.useTriggers = true;
     }
 
     void Update()
@@ -31,9 +34,12 @@ public class SwimmerMaster : InputMaster
             Vector3 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             target.z = 0.5f;
 
-            _pointerDown = true;
-            _puppet.OnPointerStart(target);
-            _swimmerFocusService.Blur();
+            if (IsValidTap(target))
+            {
+                _pointerDown = true;
+                _puppet.OnPointerStart(target);
+                _swimmerFocusService.Blur();
+            }
         }
 
         if (Input.GetMouseButtonUp(0) && _pointerDown)
@@ -86,5 +92,22 @@ public class SwimmerMaster : InputMaster
     {
         base.FocusOff();
         _puppet.PuppetFocusOff();
+    }
+
+    private bool IsValidTap(Vector2 position)
+    {
+        RaycastHit2D[] results = new RaycastHit2D[1];
+        int resultsCount = Physics2D.Raycast(position, Vector2.zero, _contactFiler2D, results);
+
+        if (resultsCount > 0)
+        {
+            foreach(RaycastHit2D hit in results)
+            {
+                if (hit.collider.tag == Tags.COLLECTABLE)
+                    return false;
+            }
+        }
+
+        return true;
     }
 }

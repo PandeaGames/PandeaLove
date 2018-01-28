@@ -7,18 +7,18 @@ public class PauseService : Service
     private List<Pausable> _pausables;
     private bool _isPaused;
 
-    public override void StartService()
+    public override void StartService(ServiceManager serviceManager)
     {
         _pausables = new List<Pausable>();
 
-        base.StartService();
+        base.StartService(serviceManager);
     }
 
-    public override void EndService()
+    public override void EndService(ServiceManager serviceManager)
     {
         _pausables.Clear();
         _pausables = null;
-        base.EndService();
+        base.EndService(serviceManager);
     }
 
     public void RegisterPausable(Pausable pausable)

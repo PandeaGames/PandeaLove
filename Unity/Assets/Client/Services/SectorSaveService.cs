@@ -7,9 +7,9 @@ public class SectorSaveService : Service {
     [SerializeField]
     private GameService _gameService;
 
-    public override void StartService()
+    public override void StartService(ServiceManager serviceManager)
     {
-        base.StartService();
+        base.StartService(serviceManager);
 
         IEnumerator<SECTR_Sector> sectors = _gameService.SectorsEnumerator;
 
@@ -19,8 +19,8 @@ public class SectorSaveService : Service {
         }
     }
 
-    public override void EndService()
+    public override void EndService(ServiceManager serviceManager)
     {
-        base.EndService();
+        base.EndService(serviceManager);
     }
 }

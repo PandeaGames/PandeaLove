@@ -13,16 +13,6 @@ public class CameraService : Service
     private List<CameraMaster> _masters = new List<CameraMaster>();
     private List<CameraAgent> _agents = new List<CameraAgent>();
 
-    public CameraService() : base()
-    {
-
-    }
-
-    public override void StartService()
-    {
-        base.StartService();
-    }
-
     public void Focus(CameraAgent agent = null)
     {
         if (_activeMaster)
@@ -39,9 +29,9 @@ public class CameraService : Service
         _activeAgent = agent;
     }
 
-    public override void EndService()
+    public override void EndService(ServiceManager serviceManager)
     {
-        base.EndService();
+        base.EndService(serviceManager);
 
         _masters.Clear();
         _agents.Clear();

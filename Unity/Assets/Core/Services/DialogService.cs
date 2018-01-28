@@ -13,7 +13,7 @@ public class DialogService : Service
 
     private Dictionary<Type, GameObject> _dialogLookup;
 
-    public override void StartService()
+    public override void StartService(ServiceManager serviceManager)
     {
         _dialogLookup = new Dictionary<Type, GameObject>();
 
@@ -35,15 +35,15 @@ public class DialogService : Service
             _dialogLookup.Add(dialogComponent.GetType(), dialogPrefab);
         }
 
-        base.StartService();
+        base.StartService(serviceManager);
     }
 
-    public override void EndService()
+    public override void EndService(ServiceManager serviceManager)
     {
         _dialogLookup.Clear();
         _dialogLookup = null;
 
-        base.EndService();
+        base.EndService(serviceManager);
     }
 
     public void DisplayDialog<T>(Dialog.Config config, Dialog.DialogResponseDelegate responseDelegate = null) where T:Dialog

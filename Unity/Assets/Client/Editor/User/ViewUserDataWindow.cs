@@ -21,12 +21,7 @@ public class ViewUserDataWindow : EditorWindow
 
     public void InitWindow()
     {
-        PandeaUserService _userService = new PandeaUserService();
-        _userService.StartService();
-
-        _user = _userService.User;
-
-        _userService.EndService();
+        LoadUser();
     }
 
     [SerializeField]
@@ -34,13 +29,12 @@ public class ViewUserDataWindow : EditorWindow
 
     private void LoadUser()
     {
-        PandeaUserService _userService = new PandeaUserService();
-        _userService.StartService();
+        ServiceManager _serviceManager = new ServiceManager();
+        PandeaUserService _userService = _serviceManager.GetService<PandeaUserService>();
 
         _user = _userService.User;
 
-        _userService.EndService();
-        _userService = null;
+        _serviceManager.EndServices();
     }
 
     void OnGUI()

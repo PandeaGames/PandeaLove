@@ -13,9 +13,9 @@ public abstract class UserService<T> : Service where T:User
 
     public T User { get { return _user; } }
 
-    public override void StartService()
+    public override void StartService(ServiceManager serviceManager)
     {
-        base.StartService();
+        base.StartService(serviceManager);
         _user = Load();
     }
 

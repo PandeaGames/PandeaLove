@@ -42,7 +42,7 @@ public class ServiceManager : MonoBehaviour {
         foreach (Service service in _services)
         {
             Debug.Log("Service "+service.name+" starting: Type(" + service.GetType()+")");
-            service.StartService();
+            service.StartService(this);
             _serviceLookup.Add(service.GetType(), service);
         }
 
@@ -62,7 +62,7 @@ public class ServiceManager : MonoBehaviour {
         foreach (Service service in _services)
         {
             Debug.Log("Service " + service.name + " ending: Type(" + service.GetType() + ")");
-            service.EndService();
+            service.EndService(this);
         }
 
         Debug.Log("ServiceManager ending with " + _services.Count + " services suspended.");
@@ -110,7 +110,7 @@ public class ServiceManager : MonoBehaviour {
         if (!service)
         {
             service = gameObject.AddComponent<T>();
-            service.StartService();
+            service.StartService(this);
             _services.Add(service);
             Debug.Log("Service " + service.name + " starting: Type(" + service.GetType() + ")");
         }

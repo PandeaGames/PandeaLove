@@ -16,12 +16,7 @@ public abstract class Service : MonoBehaviour {
 
     public bool IsRunning { get { return _isRunning; } }
 
-    public Service()
-    {
-        
-    }
-
-    public virtual void StartService()
+    public virtual void StartService(ServiceManager serviceManager)
     {
         _isRunning = true;
 
@@ -31,7 +26,7 @@ public abstract class Service : MonoBehaviour {
         }
     }
 
-    public virtual void EndService()
+    public virtual void EndService(ServiceManager serviceManager)
     {
         _isRunning = false;
 
